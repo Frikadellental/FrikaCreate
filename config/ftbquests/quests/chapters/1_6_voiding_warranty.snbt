@@ -82,7 +82,7 @@
 			tasks: [{
 				id: "17FA36948B0E6204"
 				item: "createutilities:void_steel_block"
-				type: "item" 
+				type: "item"
 			}]
 			title: "Boundary Transgression"
 			x: -0.5d

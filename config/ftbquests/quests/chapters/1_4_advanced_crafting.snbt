@@ -26,7 +26,7 @@
 			}]
 			title: "Nature's Handiwork"
 			x: 0.0d
-			y: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7BB52BECAC00A7A4"]
@@ -45,7 +45,7 @@
 				type: "item"
 			}]
 			title: "Vessels of Clarity"
-			x: -1.5d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -66,7 +66,7 @@
 			}]
 			title: "Timber Transformation"
 			x: -1.5d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7BB52BECAC00A7A4"]
@@ -83,7 +83,7 @@
 				item: "chipped:loom_table"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: 1.0d
 		}
 		{
@@ -101,8 +101,8 @@
 				item: "chipped:mason_table"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7BB52BECAC00A7A4"]
@@ -119,8 +119,8 @@
 				item: "chipped:alchemy_bench"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7BB52BECAC00A7A4"]
@@ -137,8 +137,8 @@
 				item: "chipped:tinkering_table"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			id: "7BB52BECAC00A7A4"
@@ -148,6 +148,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			size: 5.0d
 			subtitle: "The different way to add variety to the game"
 			tasks: [{
 				id: "3A98B047AE8F3153"
@@ -156,7 +157,7 @@
 			}]
 			title: "Adding variety to blocks"
 			x: 0.0d
-			y: -1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7BB52BECAC00A7A4"]
@@ -177,8 +178,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.0d
+			x: 1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7BB52BECAC00A7A4"]
@@ -196,8 +197,8 @@
 				type: "item"
 			}]
 			title: "Framed Blocks"
-			x: 0.5d
-			y: 0.0d
+			x: -1.5d
+			y: -1.0d
 		}
 	]
 	title: "Advanced Crafting Arts"

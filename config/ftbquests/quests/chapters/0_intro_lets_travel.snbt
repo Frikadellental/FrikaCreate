@@ -4,7 +4,7 @@
 	default_quest_size: 2.5d
 	filename: "0_intro_lets_travel"
 	group: "319FC8CBA94476B1"
-	icon: "supplementaries:ad_astra/sign_post_strophar"
+	icon: "supplementaries:sign_post_strophar"
 	id: "23598838C9B11FD7"
 	images: [{
 		height: 6.0d
@@ -28,12 +28,13 @@
 			size: 2.5d
 			subtitle: "Ancient markers left by the Creators guide your path through the unknown"
 			tasks: [{
-				icon: "pamhc2foodcore:friedchickenitem"
+				icon: "supplementaries:sign_post_strophar"
 				id: "6A6A4D3AA0F77F8E"
 				structure: "#supplementaries:way_sign_destinations"
-				title: "Signs of the Creators"
+				title: "Seek the Way Signs"
 				type: "structure"
 			}]
+			title: "Signs of the Creators"
 			x: -7.5d
 			y: -2.5d
 		}
@@ -50,9 +51,10 @@
 			tasks: [{
 				id: "5C68F3CFC08B0079"
 				structure: "#minecraft:village"
-				title: "Keepers of Forgotten Wisdom"
+				title: "Discover a Settlement"
 				type: "structure"
 			}]
+			title: "Keepers of Forgotten Wisdom"
 			x: -15.0d
 			y: -5.0d
 		}
@@ -65,12 +67,14 @@
 				type: "random"
 			}]
 			size: 2.5d
+			subtitle: "Locate the den of a Guardian Wilden, touched by primal magic."
 			tasks: [{
 				id: "535BD45C373881C1"
 				structure: "ars_nouveau:guardian_wilden_den"
 				title: "Find a Guardian Wilden Den"
 				type: "structure"
 			}]
+			title: "Echoes of Wild Magic: Guardian Dens"
 			x: -5.0d
 			y: -2.5d
 		}
@@ -83,12 +87,14 @@
 				type: "random"
 			}]
 			size: 2.5d
+			subtitle: "Locate the den of a Hunter Wilden, a swift predator of the wilds."
 			tasks: [{
 				id: "2BD49824EBE5502A"
 				structure: "ars_nouveau:hunter_wilden_den"
 				title: "Find a Hunter Wilden Den"
 				type: "structure"
 			}]
+			title: "Echoes of Wild Magic: Hunter Dens"
 			x: -2.5d
 			y: -2.5d
 		}
@@ -101,12 +107,14 @@
 				type: "random"
 			}]
 			size: 2.5d
+			subtitle: "Locate the den of a Stalker Wilden, lurking in the shadows."
 			tasks: [{
 				id: "142C552865B87E02"
 				structure: "ars_nouveau:stalker_wilden_den"
 				title: "Find a Stalker Wilden Den"
 				type: "structure"
 			}]
+			title: "Echoes of Wild Magic: Stalker Dens"
 			x: -12.5d
 			y: -5.0d
 		}
@@ -119,12 +127,14 @@
 				type: "random"
 			}]
 			size: 2.5d
+			subtitle: "Ancient structures hold remnants of the Creators' desert passage."
 			tasks: [{
 				id: "46469F69212490B9"
 				structure: "betterdeserttemples:desert_temple"
 				title: "Find a Desert Temple"
 				type: "structure"
 			}]
+			title: "Desert Echoes: Temples of Sand"
 			x: -10.0d
 			y: -5.0d
 		}
@@ -136,12 +146,14 @@
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
+			subtitle: "Underground chambers where restless bones guard forgotten secrets."
 			tasks: [{
 				id: "28557951B2EF9E89"
 				structure: "betterdungeons:skeleton_dungeon"
 				title: "Find a Skeleton Dungeon"
 				type: "structure"
 			}]
+			title: "Ossified Trials: Skeleton Haunts"
 			x: -15.0d
 			y: -2.5d
 		}
@@ -153,12 +165,14 @@
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
+			subtitle: "Small, hidden places that might hold clues or dangers."
 			tasks: [{
 				id: "2E386C46263317E2"
 				structure: "betterdungeons:small_dungeon"
 				title: "Find a Small Dungeon"
 				type: "structure"
 			}]
+			title: "Hidden Passages: Minor Dungeons"
 			x: -17.5d
 			y: -1.25d
 		}
@@ -170,12 +184,14 @@
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
+			subtitle: "Vestiges of forgotten constructions within the fiery depths."
 			tasks: [{
 				id: "08F529FA86C1514A"
 				structure: "betterdungeons:small_nether_dungeon"
+				title: "Find a Small Nether Dungeon"
 				type: "structure"
 			}]
-			title: "Find a Small Nether Dungeon"
+			title: "Infernal Echoes: Nether Trials"
 			x: -12.5d
 			y: -2.5d
 		}
@@ -187,12 +203,14 @@
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
+			subtitle: "Places where arachnid horrors spin their deadly webs."
 			tasks: [{
 				id: "7854CEED6BFDA103"
 				structure: "betterdungeons:spider_dungeon"
 				title: "Find a Spider Dungeon"
 				type: "structure"
 			}]
+			title: "Webbed Labyrinths: Spider Nests"
 			x: -21.25d
 			y: 1.25d
 		}
@@ -204,12 +222,14 @@
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
+			subtitle: "Crypts teeming with the shambling remnants of the past."
 			tasks: [{
 				id: "08E8B589F42B9BFD"
 				structure: "betterdungeons:zombie_dungeon"
 				title: "Find a Zombie Dungeon"
 				type: "structure"
 			}]
+			title: "Unhallowed Grounds: Zombie Crypts"
 			x: -10.0d
 			y: -2.5d
 		}
@@ -221,12 +241,14 @@
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
+			subtitle: "Imposing structures hinting at past conflicts or strongholds."
 			tasks: [{
 				id: "5545BB37B4D5F5D9"
 				structure: "betterfortresses:fortress"
 				title: "Find a Fortress"
 				type: "structure"
 			}]
+			title: "Bastions of the Past: Forgotten Fortresses"
 			x: -10.0d
 			y: 0.0d
 		}
@@ -238,16 +260,23 @@
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
+			subtitle: "Deep within overgrown lands, temples hide ancient mechanisms or magic."
 			tasks: [{
 				id: "6B7BE8F3A129CF17"
 				structure: "betterjungletemples:jungle_temple"
 				title: "Find a Jungle Temple"
 				type: "structure"
 			}]
+			title: "Verdant Secrets: Jungle Temples"
 			x: -2.5d
 			y: -5.0d
 		}
 		{
+			description: [
+				"The Creators, and those who came after, delved deep into the earth."
+				"Their abandoned tunnels crisscross the world in various forms."
+				"Explore these remnants to understand their reach."
+			]
 			id: "477A14DA4DA1CF09"
 			rewards: [
 				{
@@ -262,96 +291,107 @@
 					type: "random"
 				}
 			]
-			subtitle: "You found them all!"
+			subtitle: "You've charted the depths and found every known variation!"
 			tasks: [
 				{
 					id: "6E1702F563091BE8"
 					structure: "bettermineshafts:mineshaft_acacia"
+					title: "Acacia Mineshaft"
 					type: "structure"
 				}
 				{
 					id: "6F8F43EE18B480AB"
 					structure: "bettermineshafts:mineshaft_desert"
+					title: "Desert Mineshaft"
 					type: "structure"
 				}
 				{
 					id: "76CEE71CD7672397"
 					structure: "bettermineshafts:mineshaft_dripstone"
+					title: "Dripstone Mineshaft"
 					type: "structure"
 				}
 				{
 					id: "3D4857938557A988"
 					structure: "minecraft:mineshaft"
+					title: "Vanilla Mineshaft"
 					type: "structure"
 				}
 				{
 					id: "0A11329ECF53979B"
 					structure: "bettermineshafts:mineshaft_ice"
+					title: "Ice Mineshaft"
 					type: "structure"
 				}
 				{
 					id: "219AC83042E27439"
 					structure: "bettermineshafts:mineshaft_jungle"
+					title: "Jungle Mineshaft"
 					type: "structure"
 				}
 				{
 					id: "7320081CD7F2867D"
 					structure: "#bettermineshafts:better_mineshafts"
+					title: "Any Modded Mineshaft"
 					type: "structure"
 				}
 				{
 					disable_toast: true
 					id: "63E41AADC6FF8C63"
 					structure: "minecraft:mineshaft_mesa"
-					type: "structure"
-				}
-				{
-					id: "6C28E6F90F1A2102"
-					structure: "bettermineshafts:mineshaft_jungle"
+					title: "Vanilla Badlands Mineshaft"
 					type: "structure"
 				}
 				{
 					id: "0F7C6B1C7C771B94"
 					structure: "bettermineshafts:mineshaft_lush"
+					title: "Lush Mineshaft"
 					type: "structure"
 				}
 				{
 					id: "5977E291000339EA"
 					structure: "bettermineshafts:mineshaft_mesa"
+					title: "Modded Badlands Mineshaft"
 					type: "structure"
 				}
 				{
 					id: "6F6FBE7AA3C81FFB"
 					structure: "bettermineshafts:mineshaft_mushroom"
+					title: "Mushroom Mineshaft"
 					type: "structure"
 				}
 				{
 					id: "24408E5EE6B5D917"
 					structure: "bettermineshafts:mineshaft_oak"
+					title: "Oak Mineshaft"
 					type: "structure"
 				}
 				{
 					id: "3291779EA4A60982"
 					structure: "bettermineshafts:mineshaft_overgrown"
+					title: "Overgrown Mineshaft"
 					type: "structure"
 				}
 				{
 					id: "07EA2F87C21F5C32"
 					structure: "bettermineshafts:mineshaft_red_desert"
+					title: "Red Desert Mineshaft"
 					type: "structure"
 				}
 				{
 					id: "1C57B65A600A9422"
 					structure: "bettermineshafts:mineshaft_spruce"
+					title: "Spruce Mineshaft"
 					type: "structure"
 				}
 				{
 					id: "4DE96E7D0EED980D"
 					structure: "bettermineshafts:mineshaft_spruce_snowy"
+					title: "Snowy Spruce Mineshaft"
 					type: "structure"
 				}
 			]
-			title: "Find all Mineshafts"
+			title: "Delving Deep: Unearthing Mineshafts"
 			x: -5.0d
 			y: -5.0d
 		}
@@ -363,12 +403,14 @@
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
+			subtitle: "Beneath the waves lie grand structures, perhaps of Creator origin."
 			tasks: [{
 				id: "32B8F74C89F0A37F"
 				structure: "betteroceanmonuments:ocean_monument"
-				title: "Find a Ocean Monument"
+				title: "Find an Ocean Monument"
 				type: "structure"
 			}]
+			title: "Abyssal Constructs: Ocean Monuments"
 			x: -7.5d
 			y: -5.0d
 		}
@@ -380,12 +422,14 @@
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
+			subtitle: "Places where natural magic gathers, sometimes tended by witches."
 			tasks: [{
 				id: "40615E3322B28D1D"
 				structure: "betterwitchhuts:witch_circle"
 				title: "Find a Witch Circle"
 				type: "structure"
 			}]
+			title: "Arcane Circles: Whispers of Witchcraft"
 			x: -7.5d
 			y: 0.0d
 		}
@@ -397,12 +441,14 @@
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
+			subtitle: "Isolated dwellings where practitioners of old arts reside."
 			tasks: [{
 				id: "35AA087A76639A10"
 				structure: "betterwitchhuts:witch_hut"
 				title: "Find a Witch Hut"
 				type: "structure"
 			}]
+			title: "Secluded Magic: The Witch's Hut"
 			x: -5.0d
 			y: 0.0d
 		}
@@ -414,12 +460,14 @@
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
+			subtitle: "Even within villages, practitioners of hedge magic may dwell."
 			tasks: [{
 				id: "0FBFEDE2D84EF3EC"
 				structure: "villagesandpillages:village_witch"
 				title: "Find a Village Witch Hut"
 				type: "structure"
 			}]
+			title: "Village Mysteries: The Hedge Witch"
 			x: 5.0d
 			y: -1.25d
 		}
@@ -431,12 +479,14 @@
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
+			subtitle: "Burial sites from long ago, potentially holding Creator-era artifacts."
 			tasks: [{
 				id: "3F65A3AB4165ABA3"
 				structure: "eeeabsmobs:ancient_tomb"
-				title: "Find a Ancient Tomb"
+				title: "Find an Ancient Tomb"
 				type: "structure"
 			}]
+			title: "Tombs of the Ancients: Sleeping Secrets"
 			x: 0.0d
 			y: -5.0d
 		}
@@ -448,12 +498,14 @@
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
+			subtitle: "Small, hidden stashes left by explorers or perhaps the Creators themselves."
 			tasks: [{
 				id: "013B3E9740B20C49"
 				structure: "eeeabsmobs:one_chest_structure"
-				title: "Find a OneChest"
+				title: "Find a Hidden Cache"
 				type: "structure"
 			}]
+			title: "Creator Caches: Hidden Troves"
 			x: 0.0d
 			y: -2.5d
 		}
@@ -465,12 +517,14 @@
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
+			subtitle: "Places where offerings were made or rituals performed long ago."
 			tasks: [{
 				id: "71071A30A93065A5"
 				structure: "graveyard:altar"
-				title: "Find a Altar"
+				title: "Find an Altar"
 				type: "structure"
 			}]
+			title: "Forgotten Altars: Places of Power"
 			x: 2.5d
 			y: -3.75d
 		}
@@ -482,12 +536,14 @@
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
+			subtitle: "Solemn grounds where the departed rest, sometimes uneasy."
 			tasks: [{
 				id: "5BEA19F306C5F0FF"
 				structure: "structory:graveyard"
-				title: "Find A Graveyard"
+				title: "Find a Graveyard"
 				type: "structure"
 			}]
+			title: "Hallowed Grounds: Resting Places"
 			x: -20.0d
 			y: -1.25d
 		}
@@ -499,12 +555,14 @@
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
+			subtitle: "Crumbling stones that speak of time's passage over sacred sites."
 			tasks: [{
 				id: "7E570F776DACAD31"
 				structure: "graveyard:ruins"
-				title: "Find a Ruin"
+				title: "Find Graveyard Ruins"
 				type: "structure"
 			}]
+			title: "Ruined Sanctums: Weathered Stones"
 			x: -18.75d
 			y: 1.25d
 		}
@@ -516,11 +574,14 @@
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
+			subtitle: "The most common form of abandoned tunnels, a testament to endless digging."
 			tasks: [{
 				id: "5C31A09AF4E79F64"
 				structure: "minecraft:mineshaft"
+				title: "Find a Vanilla Mineshaft"
 				type: "structure"
 			}]
+			title: "Echoes in the Depths: Vanilla Mineshaft"
 			x: -10.0d
 			y: 2.5d
 		}
@@ -532,12 +593,14 @@
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
+			subtitle: "Underground burial chambers, often guarded by more than just dust."
 			tasks: [{
 				id: "2E0B2AA5D251098F"
 				structure: "graveyard:crypt"
 				title: "Find a Crypt"
 				type: "structure"
 			}]
+			title: "Subterranean Secrets: Unsealing Crypts"
 			x: 2.5d
 			y: -1.25d
 		}
@@ -549,12 +612,14 @@
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
+			subtitle: "Locations where fungal life grows to immense proportions, hinting at strange energies."
 			tasks: [{
 				id: "70EB436758E5AFEE"
 				structure: "graveyard:giant_mushroom"
-				title: "Find a Giant Mushroom"
+				title: "Find a Giant Mushroom Structure"
 				type: "structure"
 			}]
+			title: "Fungal Wonders: Colossal Growth"
 			x: -5.0d
 			y: 2.5d
 		}
@@ -566,12 +631,14 @@
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
+			subtitle: "Buildings infused with sorrow or malice, where spirits linger."
 			tasks: [{
 				id: "6AB2BF2E948A15C7"
 				structure: "graveyard:haunted_house"
 				title: "Find a Haunted House"
 				type: "structure"
 			}]
+			title: "Spectral Dwellings: Haunted Manors"
 			x: 6.25d
 			y: 1.25d
 		}
@@ -583,12 +650,14 @@
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
+			subtitle: "Expansive burial grounds, perhaps marking a significant past event."
 			tasks: [{
 				id: "576E22F0B61FEF6F"
 				structure: "graveyard:large_graveyard"
 				title: "Find a Large Graveyard"
 				type: "structure"
 			}]
+			title: "Vast Necropolis: The Great Graveyard"
 			x: 3.75d
 			y: 1.25d
 		}
@@ -600,12 +669,14 @@
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
+			subtitle: "Places built to contain powerful undead, echoing the Nameless Guardian's influence."
 			tasks: [{
 				id: "01F2205B05A144FD"
 				structure: "graveyard:lich_prison"
 				title: "Find a Lich Prison"
 				type: "structure"
 			}]
+			title: "Bound Darkness: The Lich's Prison"
 			x: -17.5d
 			y: -3.75d
 		}
@@ -617,6 +688,7 @@
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
+			subtitle: "Small burial plots lost amidst the arid wastes."
 			tasks: [{
 				disable_toast: true
 				id: "3BCBFDBDCA6EF4D1"
@@ -624,6 +696,7 @@
 				title: "Small Graveyard in the Desert"
 				type: "structure"
 			}]
+			title: "Desert Graves: Sun-Scorched Stones"
 			x: -10.0d
 			y: 5.0d
 		}
@@ -635,6 +708,7 @@
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
+			subtitle: "Unassuming resting places scattered throughout the lands."
 			tasks: [{
 				disable_toast: true
 				id: "410A0819F1EA4206"
@@ -642,10 +716,11 @@
 				title: "Find a Small Graveyard"
 				type: "structure"
 			}]
+			title: "Quiet Plots: Humble Graveyards"
 			x: -5.0d
 			y: 5.0d
 		}
 	]
-	subtitle: ["Lets do an Adventure through the Modpack!"]
-	title: "Lets Travel!"
+	subtitle: ["The whispers guide you. Seek out the remnants and structures scattered across the land, each a potential breadcrumb on the path to understanding the Creators' legacy."]
+	title: "Whispers on the Wind"
 }

@@ -40,15 +40,16 @@
 				}
 			]
 			size: 7.0d
+			subtitle: "The journey begins with a whisper from the unknown."
 			tasks: [{
 				disable_toast: true
 				id: "2B2D54FD753A140D"
 				title: "The Calling Begins"
 				type: "checkmark"
 			}]
+			title: "The First Step: A Creator's Call"
 			x: -7.0d
 			y: -14.0d
-			title: "The First Step: A Whispered Calling"
 		}
 		{
 			id: "5D75E95678DDD710"
@@ -66,23 +67,24 @@
 				}
 			]
 			size: 5.0d
+			subtitle: "A legendary foe stands between you and the truth."
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_head"
 				id: "4D6BB95F1D5CC5D6"
-				title: "The End of the Beginning"
+				title: "Defeated The Dragon"
 				type: "kill"
 				value: 1L
 			}]
+			title: "The Dragon's Demise"
 			x: -27.5d
 			y: -27.5d
-			description: "The mighty Ender Dragon has fallen, marking the end of one chapter and the beginning of another. The Creators' influence grows stronger as you step closer to unraveling their mysteries."
 		}
 		{
 			icon: "minecraft:nether_star"
 			id: "1ECA86B4BA3B6E62"
 			size: 5.0d
-			subtitle: "Yeah... "
+			subtitle: "Face the chaos to uncover the Nether's secrets."
 			tasks: [
 				{
 					entity: "minecraft:wither"
@@ -99,10 +101,9 @@
 					value: 100L
 				}
 			]
-			title: "The Nether's Wrath Unleashed"
+			title: "Conqueror of the Nether"
 			x: -27.5d
 			y: -22.5d
-			description: "The Nether's fiercest creatures have tested your resolve. With each victory, you draw closer to mastering the arcane forces that bind this realm."
 		}
 		{
 			icon: "twilightforest:twilight_portal_miniature_structure"
@@ -127,6 +128,7 @@
 				}
 			]
 			size: 8.0d
+			subtitle: "Prove your worth in the Twilight Forest's trials."
 			tasks: [
 				{
 					entity: "twilightforest:naga"
@@ -201,10 +203,9 @@
 					value: 1L
 				}
 			]
-			title: "Twilight Trials: The Forest's Secrets"
+			title: "Twilight Trials"
 			x: -24.0d
 			y: -16.0d
-			description: "The Twilight Forest holds many trials, each a test of your courage and wit. Conquer its guardians to uncover the ancient truths hidden within."
 		}
 		{
 			id: "746E0FED1A9F4862"
@@ -218,15 +219,15 @@
 				type: "toast"
 			}]
 			size: 5.0d
+			subtitle: "A humble creation with profound meaning."
 			tasks: [{
 				id: "6A332E6B0BF2A014"
 				item: "ad_astra:cheese"
 				type: "item"
 			}]
-			title: "A Taste of the Cosmos"
+			title: "A Taste of Eternity"
 			x: -5.0d
 			y: -20.0d
-			description: "Even the simplest of creations, like cheese, can hold the essence of the Creators' ingenuity. Craft and savor this humble delight as you prepare for greater challenges."
 		}
 		{
 			icon: {
@@ -248,6 +249,7 @@
 				}
 			]
 			size: 5.0d
+			subtitle: "Build the tools to reach the stars."
 			tasks: [
 				{
 					id: "7BA1653AEEED117F"
@@ -286,10 +288,9 @@
 					type: "item"
 				}
 			]
-			title: "Rocketry: Reaching for the Stars"
+			title: "Rocketry Ascension"
 			x: -12.5d
 			y: -27.5d
-			description: "Your journey now extends beyond the skies. Assemble the tools of interstellar travel and prepare to explore the vast unknown."
 		}
 		{
 			icon: "ad_astra:earth_globe"
@@ -314,7 +315,7 @@
 				}
 			]
 			size: 5.0d
-			subtitle: "You flew through space and time."
+			subtitle: "Explore the cosmos and its forgotten realms."
 			tasks: [
 				{
 					dimension: "ad_astra:glacio"
@@ -352,10 +353,9 @@
 					type: "dimension"
 				}
 			]
-			title: "Celestial Wanderer"
+			title: "Cosmic Explorer"
 			x: -7.5d
 			y: -25.0d
-			description: "The Creators' influence spans across worlds. Visit distant planets and uncover the remnants of their cosmic legacy."
 		}
 		{
 			dependencies: [
@@ -371,16 +371,15 @@
 				type: "random"
 			}]
 			size: 8.0d
-			subtitle: "You mastered basic Minecraft"
+			subtitle: "Master the basics to embark on a greater journey."
 			tasks: [{
 				id: "58D347833E078BEA"
 				title: "Basic Bitch"
 				type: "checkmark"
 			}]
+			title: "Master of Beginnings"
 			x: -20.0d
 			y: -28.0d
-			title: "Master of the Basics"
-			description: "You have mastered the fundamental skills of survival and creation. With this foundation, you are ready to face the greater mysteries ahead."
 		}
 	]
 	title: "&fThe &6Creator's Journey Begins"

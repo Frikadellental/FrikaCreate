@@ -11,7 +11,7 @@
 		}
 	}
 	id: "0110D8011BD7DB63"
-	order_index: 4
+	order_index: 3
 	quest_links: [
 		{
 			id: "0E1C27672E602416"
@@ -57,13 +57,13 @@
 					}
 				}
 				id: "360EA4E2AA02D595"
-				observe_type: 5
+				observe_type: 0
 				timer: 0L
-				title: "See a Bone Serpent"
+				title: "Witness the Bone Serpent"
 				to_observe: "alexsmobs:bone_serpent"
 				type: "observation"
 			}]
-			title: "See a Bone Serpent"
+			title: "&cThe Fiery Guardian of the Depths"
 			x: -11.5d
 			y: -1.5d
 		}
@@ -85,12 +85,13 @@
 					}
 				}
 				id: "43277C4E731922D5"
-				observe_type: 5
+				observe_type: 0
 				timer: 0L
-				title: "See a Laviathan"
+				title: "Behold the Laviathan"
 				to_observe: "alexsmobs:laviathan"
 				type: "observation"
 			}]
+			title: "&9The Abyssal Leviathan"
 			x: -7.0d
 			y: -1.5d
 		}
@@ -112,12 +113,13 @@
 					}
 				}
 				id: "3F9B0619639D266E"
-				observe_type: 5
+				observe_type: 0
 				timer: 0L
-				title: "See a Stradpole"
+				title: "Spot the Stradpole"
 				to_observe: "alexsmobs:stradpole"
 				type: "observation"
 			}]
+			title: "&aThe Curious Stradpole"
 			x: -2.5d
 			y: -1.5d
 		}
@@ -139,12 +141,13 @@
 					}
 				}
 				id: "51EEE2BA604C4351"
-				observe_type: 5
+				observe_type: 0
 				timer: 0L
-				title: "See a Warped Mosco"
+				title: "Observe the Warped Mosco"
 				to_observe: "alexsmobs:warped_mosco"
 				type: "observation"
 			}]
+			title: "&5The Twisted Mosco"
 			x: -1.0d
 			y: -1.5d
 		}
@@ -160,12 +163,13 @@
 			tasks: [{
 				icon: "alexsmobs:spawn_egg_warped_toad"
 				id: "1FB82FBF69BAF1D2"
-				observe_type: 5
+				observe_type: 0
 				timer: 0L
-				title: "See a Warped Toad"
+				title: "Spot the Warped Toad"
 				to_observe: "alexsmobs:warped_toad"
 				type: "observation"
 			}]
+			title: "&2The Warped Toad"
 			x: 0.5d
 			y: -1.5d
 		}
