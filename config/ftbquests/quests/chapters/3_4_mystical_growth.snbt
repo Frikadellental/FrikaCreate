@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: true
 	default_quest_shape: ""
-	filename: "mystical_agriculture_tools_quests"
+	filename: "3_4_mystical_growth"
 	group: "34669419BAF6FEE3"
 	icon: "mysticalagriculture:supremium_sword"
 	id: "032D30FB5AB4835B"

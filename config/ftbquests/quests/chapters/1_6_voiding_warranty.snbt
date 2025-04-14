@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "1_6_voiding_warranty"
 	group: "5B85D172AD52B352"
+	icon: "createutilities:void_steel_ingot"
 	id: "1B38227F41C1A372"
 	order_index: 5
 	quest_links: [ ]

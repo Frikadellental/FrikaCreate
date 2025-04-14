@@ -1,11 +1,11 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "welcome"
+	filename: "0_intro_tutorial"
 	group: "319FC8CBA94476B1"
 	icon: "create:brass_hand"
 	id: "3E34934F09B08365"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
