@@ -26,12 +26,12 @@
 				type: "random"
 			}]
 			size: 2.5d
-			subtitle: "Found a Sign that shows you the way..."
+			subtitle: "Ancient markers left by the Creators guide your path through the unknown"
 			tasks: [{
 				icon: "pamhc2foodcore:friedchickenitem"
 				id: "6A6A4D3AA0F77F8E"
 				structure: "#supplementaries:way_sign_destinations"
-				title: "Do you know da way?"
+				title: "Signs of the Creators"
 				type: "structure"
 			}]
 			x: -7.5d
@@ -46,11 +46,11 @@
 				type: "random"
 			}]
 			size: 2.5d
-			subtitle: "You found a Village"
+			subtitle: "Communities where knowledge of the ancient ways still persists"
 			tasks: [{
 				id: "5C68F3CFC08B0079"
 				structure: "#minecraft:village"
-				title: "Lets Trade!"
+				title: "Keepers of Forgotten Wisdom"
 				type: "structure"
 			}]
 			x: -15.0d

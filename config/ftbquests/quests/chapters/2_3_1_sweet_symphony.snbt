@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["The &6slicer&r can chop or slice stuff when given the appropriate tool for the item when it's placed on the cutting board"]
+			description: ["Die Hinterlassenschaften der Creators zeigen, dass sie ein besonderes Gespür für Präzision hatten. Der &6Slicer&r ist ein technisches Wunderwerk, das mit einem entsprechenden Werkzeug auf dem Schneidebrett Zutaten in vollkommener Gleichmäßigkeit zerteilen kann – ein Kunststück, das selbst den fortschrittlichsten Handwerkern unter den Creators wichtig war."]
 			id: "20DC0097D4B262EA"
 			progression_mode: "flexible"
 			rewards: [{
@@ -18,7 +18,7 @@
 				item: "create:experience_nugget"
 				type: "item"
 			}]
-			subtitle: "Slice, dice and everything nice"
+			subtitle: "Die Präzision der alten Meister"
 			tasks: [
 				{
 					id: "0B6B38327C7B93AA"
@@ -31,10 +31,12 @@
 					type: "item"
 				}
 			]
+			title: "Arkane Schneidekunst"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
+			description: ["In alten Schriften wird von süßen Kreationen erzählt, die die Creators zu besonderen Anlässen formten. Der Ingwerteig scheint eine besondere Bedeutung gehabt zu haben – seine warmen Aromen und die Formbarkeit erlaubten es den Creators, kleine Kunstwerke zu erschaffen, die sowohl Nahrung als auch symbolische Bedeutung trugen. Eine verlorene Kunst, die es wiederzuentdecken gilt."]
 			id: "7E9623CB8A348545"
 			progression_mode: "flexible"
 			rewards: [{
@@ -43,11 +45,13 @@
 				item: "create:experience_nugget"
 				type: "item"
 			}]
+			subtitle: "Die süße Essenz vergangener Zeiten"
 			tasks: [{
 				id: "20494D60429BB96A"
 				item: "create_confectionery:gingerdough"
 				type: "item"
 			}]
+			title: "Süße Erinnerungen"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -670,5 +674,5 @@
 			y: -1.5d
 		}
 	]
-	title: "2.3.1 &eSweet Symphony"
+	title: "Süße Symphonie"
 }

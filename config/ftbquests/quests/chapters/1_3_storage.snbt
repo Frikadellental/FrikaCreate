@@ -36,7 +36,7 @@
 	quests: [
 		{
 			dependencies: ["5E4BC0F59C90433A"]
-			description: ["*Note: To upgrade an already placed vanilla chest to an Iron Sophisticated Chest, you will first need to convert the chest with a \"Basic Tier Upgrade.\""]
+			description: ["The Creators left whispers of knowledge about manipulating space itself. Their first gift to you is the understanding of iron transmutation, allowing you to create storage vessels twice as vast as ordinary chests. *Note: To upgrade an already placed vanilla chest to an Iron Sophisticated Chest, you will first need to convert the chest with a \"Basic Tier Upgrade.\""]
 			id: "58514FDE153FD971"
 			rewards: [
 				{
@@ -55,7 +55,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "A single chest the size of 2."
+			subtitle: "The first step toward spatial mastery"
 			tasks: [{
 				id: "77A9435B6739348E"
 				item: {
@@ -67,11 +67,13 @@
 				}
 				type: "item"
 			}]
+			title: "Ironclad Containment"
 			x: -7.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["58514FDE153FD971"]
+			description: ["As you deepen your understanding of the Creators' wisdom, you discover how to imbue your storage with the properties of gold. This precious metal resonates with ancient energies, expanding storage capabilities even further. The golden gleam hints at the greater mysteries yet to be unveiled."]
 			id: "3E33730DC2115D26"
 			rewards: [
 				{
@@ -90,7 +92,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "A lot more room for activities."
+			subtitle: "The golden path to greater holdings"
 			tasks: [{
 				id: "0427B441A750316F"
 				item: {
@@ -102,6 +104,7 @@
 				}
 				type: "item"
 			}]
+			title: "Gilded Repositories"
 			x: -5.0d
 			y: -1.5d
 		}
@@ -1875,5 +1878,5 @@
 			y: 2.5d
 		}
 	]
-	title: "&71.3 &aStore your Items"
+	title: "Spatial Mastery"
 }

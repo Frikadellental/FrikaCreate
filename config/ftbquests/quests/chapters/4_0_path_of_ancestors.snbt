@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Your mother told you that the mother of her mother told her... Anyway, there is some kind of Ancient tomb, that wont allow your Ancestors to rest in peace. "]
+			description: ["The whispers grow stronger with each passing night—ancient echoes carried through generations. They speak of an Ancient Tomb that disrupts the eternal slumber of your Ancestors, a disharmony in the cosmic balance that even the Creators themselves would find unsettling. The disturbance pulls at your consciousness, beckoning you toward a destiny intertwined with secrets buried by time."]
 			id: "147AB2A86BEDD5CE"
 			rewards: [
 				{
@@ -24,288 +24,202 @@
 					table_id: 5564196992594175882L
 					type: "random"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "523C73142835BE20"
-					type: "choice"
-				}
 			]
 			size: 4.0d
 			tasks: [{
 				id: "409E1B41764DCBE7"
-				title: "Start Quest"
+				title: "The Calling Begins"
 				type: "checkmark"
 			}]
-			title: "My mother told me..."
+			title: "Whispers of the Forgotten"
 			x: -6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["147AB2A86BEDD5CE"]
-			description: ["Find a way to the Ancient Tomb."]
+			description: ["The path to the Ancient Tomb remains veiled in shadow, much like the Creator's own enigmatic journey through existence. You must venture beyond familiar boundaries, following cryptic signs and forgotten pathways that shimmer with residual power. Every step forward is guided by intuition—or perhaps something deeper, calling you to discover fragments of a legacy that shaped the very fabric of this world."]
 			hide_until_deps_visible: true
-			icon: "eeeabsmobs:animation_controller"
-			id: "5F424A1E3376F056"
+			id: "47BCDAE70811FC5D"
 			rewards: [
 				{
+					id: "31A014A00EDEF39E"
+					type: "xp"
+					xp: 50
+				}
+				{
 					exclude_from_claim_all: true
-					id: "332D65BC77878EA2"
+					id: "49DA457884728FB9"
 					table_id: 3167413821981102187L
 					type: "random"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "6EFB33B716E803EE"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0038D877878A8513"
-					type: "choice"
-				}
 			]
-			size: 3.0d
+			shape: "hexagon"
 			tasks: [{
-				count: 8L
-				id: "6A7D99D59B47F02F"
-				item: "eeeabsmobs:ancient_tomb_eye"
-				type: "item"
-			}]
-			title: "Find our Ancestors"
-			x: -1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5F424A1E3376F056"]
-			description: ["You found the Ancient tomb, that our Ancestors were talking about. Find a way in..."]
-			hide_details_until_startable: true
-			id: "605B9C11A9AA8CE3"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "53AAB55288AD40D9"
-					table_id: 3167413821981102187L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5BE836C96A597DDA"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "075160C3A7DB68CC"
-					type: "choice"
-				}
-			]
-			size: 2.0d
-			tasks: [{
-				id: "05D2A163A51805EA"
+				id: "0C4B1CDDAD810736"
 				structure: "eeeabsmobs:ancient_tomb"
+				title: "Discover the Ancient Tomb"
 				type: "structure"
 			}]
-			title: "Ancient Tomb"
-			x: 1.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["605B9C11A9AA8CE3"]
-			description: ["Some Villager told you, that your Way in is marked by glowing stuff, and that this Tomb is way down below the overworld. "]
-			id: "046D5C90E4FA8E29"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "7FF5F0404E6E1790"
-					table_id: 3167413821981102187L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "485930E4F46BA4AC"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "758F571A9C34E3EE"
-					type: "choice"
-				}
-			]
-			tasks: [{
-				id: "3E27991FA9AC5AC4"
-				title: "ok."
-				type: "checkmark"
-			}]
-			x: 1.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["046D5C90E4FA8E29"]
-			hide_until_deps_visible: true
-			id: "43358B21662A13F8"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "35173F2621220DD7"
-					table_id: 3167413821981102187L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "56DF060C6B272429"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "286FD1FF913942BC"
-					type: "choice"
-				}
-			]
-			tasks: [{
-				entity: "eeeabsmobs:immortal_skeleton"
-				id: "56C26CFFFC6535A3"
-				type: "kill"
-				value: 5L
-			}]
-			x: 2.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["046D5C90E4FA8E29"]
-			id: "49235723727D7CEA"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "79C8FD6C1209A9D8"
-					table_id: 3167413821981102187L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "41B2E2BDF3D19D85"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "51CA50361EC5E1FD"
-					type: "choice"
-				}
-			]
-			tasks: [{
-				entity: "eeeabsmobs:immortal_knight"
-				id: "7BD1A1E6EB5CFB67"
-				type: "kill"
-				value: 5L
-			}]
-			x: 2.5d
+			title: "Echoes of Eternity"
+			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["046D5C90E4FA8E29"]
-			id: "738DEEC5001C9A37"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3781977D01952B19"
-					table_id: 3167413821981102187L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5E73873D4998F85E"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7D3D7AEF052E7584"
-					type: "choice"
-				}
-			]
-			tasks: [{
-				entity: "eeeabsmobs:immortal_golem"
-				id: "73FD0FE231FF6D5C"
-				type: "kill"
-				value: 5L
+			dependencies: ["47BCDAE70811FC5D"]
+			description: ["The guardians of the tomb stir—spirits bound to ancient oaths made in the era when the Creators still walked these lands. They manifest as phantoms, lingering between worlds, fierce in their determination to protect what lies within. As you face these entities of concentrated will, you sense they are not merely obstacles, but tests—trials designed to judge worthiness for the knowledge they protect."]
+			hide_until_deps_visible: true
+			id: "3453FB08E978FBC7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73B93694246BD602"
+				type: "choice"
 			}]
-			x: 2.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["046D5C90E4FA8E29"]
-			id: "5BE16298DDA5FBDE"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5654DD5AF70C2E01"
-					table_id: 3167413821981102187L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6246ADEEE67C9503"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4B41AE2F59BF5BF7"
-					type: "choice"
-				}
-			]
 			tasks: [{
-				entity: "eeeabsmobs:immortal_shaman"
-				id: "563CFDBB27E74C2A"
-				type: "kill"
-				value: 5L
-			}]
-			x: 2.5d
-			y: 2.0d
-		}
-		{
-			dependencies: [
-				"738DEEC5001C9A37"
-				"49235723727D7CEA"
-				"5BE16298DDA5FBDE"
-				"43358B21662A13F8"
-			]
-			description: ["You finally freed the souls of your Ancestors. They can now rest in peace."]
-			icon: "eeeabsmobs:immortal_bone"
-			id: "30D2865BECEBB76E"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "53634B7CBBE6CF9A"
-					table_id: 3167413821981102187L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "296A840A7C24586D"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "72202115F0CEBBE6"
-					type: "choice"
-				}
-			]
-			size: 5.0d
-			tasks: [{
-				entity: "eeeabsmobs:nameless_guardian"
-				id: "156E43EBEE576CE4"
+				entity: "eeeabsmobs:nightmare_warden"
+				id: "41A0D4B06B7ED941"
+				title: "Overcome the Nightmare Warden"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Free the Souls of your Ancestors"
-			x: 7.5d
+			title: "Guardian of the Veil"
+			x: 3.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["47BCDAE70811FC5D"]
+			description: ["The immortal staff resonates with latent power—an artifact that bears the signature of the Creators' craftsmanship. Its unusual composition suggests it was designed as both tool and weapon, capable of channeling energies that bridge the gap between physical and ethereal realms. In your hands, it pulses with recognition, as though awakening to a purpose long dormant."]
+			hide_until_deps_visible: true
+			id: "386B04E52B9FE80B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61FB8C2C7EE6E830"
+				table_id: 3167413821981102187L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6AC98AD88D74D529"
+				item: "eeeabsmobs:immortal_staff"
+				type: "item"
+			}]
+			title: "Legacy of Timeless Power"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["47BCDAE70811FC5D"]
+			description: ["Deep within the ancient corridors, you discover inscription fragments—pieces of knowledge preserved from an age when the Creators' influence was more directly felt. These texts speak of entities from beyond the veil, of cosmic balance and its guardians. Each fragment you collect fills gaps in your understanding, revealing connections between your journey and patterns woven into the very architecture of existence."]
+			hide_until_deps_visible: true
+			id: "3F0F869925D90B20"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77A0C68FE8D362D6"
+				table_id: 3167413821981102187L
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Fragments of Creator Wisdom"
+			tasks: [{
+				id: "535A302CD67F1AAF"
+				item: "eeeabsmobs:ancient_inscription"
+				type: "item"
+			}]
+			title: "Ancestral Inscription"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3453FB08E978FBC7"]
+			description: ["Harnessing the energies bound within the immortal staff and drawing upon the knowledge contained in the ancient inscriptions, you face the tomb's ultimate guardian—The Nameless One. This entity embodies the threshold between knowledge and wisdom, between power sought and power earned. In its multiple forms, it represents the many trials the Creators themselves faced on their journey toward understanding the cosmos."]
+			hide_until_deps_visible: true
+			id: "7DE53E73E5BFE9EA"
+			rewards: [
+				{
+					id: "27B6C1CD70937DE7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F0D7FC7AB5C43BB"
+					table_id: 3167413821981102187L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "The Final Challenge"
+			tasks: [{
+				entity: "eeeabsmobs:nameless_one"
+				id: "4F1D91DADDCDF0FB"
+				title: "Confront The Nameless One"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Beyond the Threshold"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3453FB08E978FBC7"]
+			description: ["Across time and space, the Creators scattered keys to unlock deeper mysteries—phylacteries containing essence from beyond mortal comprehension. This ancient vessel holds energies that resonate with the cosmos itself, energies that might be wielded by one who understands their true nature. Within it lies not just power, but a fragment of the insight that guided the Creators in their work."]
+			id: "128EE97DE9AB0566"
+			rewards: [
+				{
+					id: "25C5472855EE9C48"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "212A14C5640AF9D6"
+					table_id: 3167413821981102187L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "16FCF2C60D3498F2"
+				item: "eeeabsmobs:ancient_phylactery"
+				type: "item"
+			}]
+			title: "Vessel of Cosmic Essence"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3453FB08E978FBC7"]
+			description: ["This blade carries echoes of battles fought beyond the boundaries of our realm—a manifestation of the Creator's understanding that creation and destruction exist in eternal balance. Its form shifts between dimensions, never fully materializing in any one reality. To wield it is to stand at the intersection of all possible worlds, a position the Creators themselves once inhabited."]
+			id: "20C320F617638EED"
+			rewards: [
+				{
+					id: "00198FFE38D3669D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5AE0D56431F5060F"
+					table_id: 3167413821981102187L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4FBAA4806DA46F02"
+				item: {
+					Count: 1
+					id: "eeeabsmobs:phasing_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Edge of Dimensional Boundaries"
+			x: 5.0d
+			y: -2.0d
+		}
 	]
-	title: "&6Path of our Ancestors"
+	title: "Path of Ancestors"
 }

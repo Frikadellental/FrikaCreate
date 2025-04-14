@@ -15,7 +15,7 @@
 	quest_links: [{
 		id: "2D1798529A419459"
 		linked_quest: "133696D3887F1B9D"
-		title: "Enter &dThe End&r"
+		title: "Enter &dThe Void Beyond&r"
 		x: -6.0d
 		y: -0.5d
 	}]
@@ -29,6 +29,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			subtitle: "Face the ancient guardian of the void, a crucial step in understanding the Creators' legacy"
 			tasks: [{
 				advancement: "minecraft:end/kill_dragon"
 				criterion: ""
@@ -36,12 +37,13 @@
 				id: "3B5D88533203890D"
 				type: "advancement"
 			}]
-			title: "Defeat the &5Ender Dragon&r"
+			title: "Defeat the &5Nameless Guardian&r"
 			x: -4.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["4C076BCACF6E16CA"]
+			description: ["With the defeat of the Nameless Guardian, you feel the balance shifting across all realms. The Creators' influence grows stronger in your presence."]
 			id: "72CFA89AAD7EC0A6"
 			progression_mode: "flexible"
 			rewards: [

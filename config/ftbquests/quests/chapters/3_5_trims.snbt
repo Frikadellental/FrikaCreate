@@ -34,6 +34,7 @@
 	]
 	quests: [
 		{
+			description: ["The Creators traveled across seas and left their mark even in the depths. Locate a shipwreck where artifacts of their journeys may be hidden, waiting to be uncovered by a worthy seeker."]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -48,17 +49,19 @@
 				type: "xp"
 				xp: 10
 			}]
+			subtitle: "Ancient vessels may hold fragments of the Creators' knowledge"
 			tasks: [{
 				id: "1E97800DDB895C60"
 				structure: "minecraft:shipwreck"
 				type: "structure"
 			}]
-			title: "Locate a &bShipwreck&r"
+			title: "Sunken Secrets"
 			x: -9.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["51E37CE8D0904957"]
+			description: ["This ancient template contains geometric patterns once used by the Creators' sentinels. Infusing your armor with it will grant you a connection to their protective magic, preparing you for greater challenges ahead."]
 			id: "107FD0A61301E536"
 			progression_mode: "flexible"
 			rewards: [{
@@ -66,13 +69,14 @@
 				type: "xp"
 				xp: 10
 			}]
+			subtitle: "An artifact embodying protective magic"
 			tasks: [{
 				id: "3C4571C7EFEF439F"
 				item: "minecraft:sentry_armor_trim_smithing_template"
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "Obtain a &2Sentry Armour Trim&r"
+			title: "Guardian's Imprint"
 			x: -1.0d
 			y: -1.0d
 		}

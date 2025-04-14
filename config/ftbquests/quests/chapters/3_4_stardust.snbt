@@ -16,13 +16,13 @@
 				xp_levels: 5
 			}]
 			size: 4.0d
-			subtitle: "Houston, we have no plan."
+			subtitle: "The cosmos beckons with whispers of Creator knowledge. Their influence stretches beyond our world, into the vast expanse of space where ancient secrets await."
 			tasks: [{
 				id: "6EDEBD5E5C592FA4"
 				item: "ad_astra:astrodux"
 				type: "item"
 			}]
-			title: "This rocket goes to the moon?"
+			title: "Celestial Pathways"
 			x: -15.0d
 			y: -2.0d
 		}
@@ -38,7 +38,7 @@
 				xp: 100
 			}]
 			size: 3.0d
-			subtitle: "Hey look at that Handsome Helmet!"
+			subtitle: "To traverse the celestial void, one must shield themselves from its harsh embrace. The Creators themselves once walked among stars wearing similar protective shells."
 			tasks: [{
 				id: "049EA60A893350CA"
 				item: {
@@ -50,6 +50,7 @@
 				}
 				type: "item"
 			}]
+			title: "Void Wanderer's Protection"
 			x: -12.0d
 			y: -3.5d
 		}
@@ -408,5 +409,5 @@
 		}
 	]
 	subtitle: ["Yeah."]
-	title: "3.4 &fStardust"
+	title: "&bCelestial Secrets: Echoes of the Creators"
 }

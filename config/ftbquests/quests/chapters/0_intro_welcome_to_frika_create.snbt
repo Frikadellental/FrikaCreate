@@ -18,11 +18,11 @@
 	quests: [
 		{
 			description: [
-				"&lWelcome to a unique Minecraft experience with '&6FrikaCreate&r'! "
+				"&lThe whispers of the Creators have reached you! "
 				""
-				"Immerse yourself in a world full of possibilities and adventures, where you'll explore the depths of the ocean, conquer the skies, and uncover the secrets of ancient temples.&r"
+				"In this quiet corner of your world, you've felt a calling - a subtle invitation to uncover the secrets of fabled beings whose influence exists in every facet of this realm. With nothing but your curiosity, basic tools, and an unyielding drive to explore, you now step beyond the familiar into the unknown.&r"
 				""
-				"Follow the Progress to unlock all Quests."
+				"Your journey of discovery begins here. Follow the path to unveil ancient mysteries and master both technological ingenuity and arcane forces."
 			]
 			icon: "farmersdelight:beef_patty"
 			id: "625630E8F4818108"
@@ -43,7 +43,7 @@
 			tasks: [{
 				disable_toast: true
 				id: "2B2D54FD753A140D"
-				title: "Welcome!"
+				title: "The Calling Begins"
 				type: "checkmark"
 			}]
 			x: -7.0d
@@ -374,5 +374,5 @@
 			y: -28.0d
 		}
 	]
-	title: "&fWelcome to &6Frika Create"
+	title: "&fThe &6Creator's Journey Begins"
 }

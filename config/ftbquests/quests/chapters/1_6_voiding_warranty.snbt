@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["The whispers grow stronger as you forge this peculiar material. Void Steel appears to absorb light itself, a manifestation of the space between stars that the Creators once traversed. Each ingot feels unnaturally cold in your hands, as if it's drawing energy from your very being. With this forbidden material, you edge closer to understanding the Creators' most dangerous secrets."]
 			id: "1B00107556D0E1E0"
 			rewards: [
 				{
@@ -24,15 +25,18 @@
 				}
 			]
 			size: 2.0d
+			subtitle: "Harnessing the Abyss"
 			tasks: [{
 				id: "57D555BE14FA207D"
 				item: "createutilities:void_steel_ingot"
 				type: "item"
 			}]
+			title: "Essence of Nothingness"
 			x: -4.5d
 			y: 2.0d
 		}
 		{
+			description: ["The process of hammering Void Steel into sheets creates an unsettling resonance, as if reality itself protests against your actions. These sheets are impossibly thin yet stronger than diamond, capable of bending light and perhaps even more fundamental forces. The Creators used similar materials to construct vessels that could traverse the void between dimensions. What will you build with such power?"]
 			id: "5775811F8BACF99E"
 			rewards: [
 				{
@@ -48,36 +52,40 @@
 				}
 			]
 			size: 2.0d
+			subtitle: "Folding the Fabric of Reality"
 			tasks: [{
 				id: "1AEBDBBD005E1FE4"
 				item: "createutilities:void_steel_sheet"
 				type: "item"
 			}]
+			title: "Membranes of the Cosmos"
 			x: -2.5d
 			y: -1.0d
 		}
 		{
+			description: ["As you delve deeper into the mysteries of Void Steel, you sense a growing unease. This material should not exist in our realm—it defies natural laws and seems to resonate with something beyond comprehension. The Creators left warnings about such materials in ancient texts. Are you prepared for the consequences of wielding what was never meant for mortal hands?"]
 			id: "74065A7D223B1680"
 			rewards: [
 				{
-					id: "2A706434CE06D4FD"
+					id: "25F9C95D0686CB59"
 					type: "xp"
 					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "24B186DBC676C0FF"
+					id: "040FD21F2882A393"
 					table_id: 487623848494439020L
 					type: "random"
 				}
 			]
-			size: 2.0d
+			subtitle: "Beyond the Known"
 			tasks: [{
-				id: "1B0066122DB51A4E"
-				item: "createutilities:void_casing"
-				type: "item"
+				id: "17FA36948B0E6204"
+				item: "createutilities:void_steel_block"
+				type: "item" 
 			}]
-			x: -4.5d
+			title: "Boundary Transgression"
+			x: -0.5d
 			y: 0.0d
 		}
 		{
@@ -213,5 +221,5 @@
 			y: 0.0d
 		}
 	]
-	title: "1.6 &aVoiding Warranty"
+	title: "Breaching the Void"
 }

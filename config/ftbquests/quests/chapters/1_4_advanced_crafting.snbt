@@ -10,6 +10,7 @@
 	quests: [
 		{
 			dependencies: ["7BB52BECAC00A7A4"]
+			description: ["The Botanist's Workbench whispers ancient knowledge of nature's patterns. As you run your fingers along its worn surface, you sense that the Creators themselves may have crafted with such tools, binding plant and purpose together in ways forgotten to time. Through this bench, you'll discover how to reshape natural materials into forms that echo the harmony of creation itself."]
 			id: "52FB1C854913DF6D"
 			progression_mode: "flexible"
 			rewards: [{
@@ -17,17 +18,19 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "The nature work table"
+			subtitle: "Harmony with natural elements"
 			tasks: [{
 				id: "5849EE3DCF769C47"
 				item: "chipped:botanist_workbench"
 				type: "item"
 			}]
+			title: "Nature's Handiwork"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["7BB52BECAC00A7A4"]
+			description: ["Light dances differently through the careful work of a master glassblower. This ancient craft, perhaps taught by the Creators themselves to early civilizations, transforms raw sand into vessels of clarity and beauty. As you work at this station, you'll feel echoes of cosmic patterns in each bubble and curve—reminders that even the most fragile creations can capture eternity's reflection."]
 			id: "2E159F21FFAA8235"
 			progression_mode: "flexible"
 			rewards: [{
@@ -35,17 +38,19 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "The glass workers table"
+			subtitle: "Mastery of form and light"
 			tasks: [{
 				id: "7FD9F666136C210D"
 				item: "chipped:glassblower"
 				type: "item"
 			}]
+			title: "Vessels of Clarity"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7BB52BECAC00A7A4"]
+			description: ["The Carpenter's Table holds secrets of timber transformation that stretch back to the earliest days of creation. Every craftsman who shapes wood follows patterns embedded in reality by the Creators. Through this station, you'll learn to speak the language of growth rings and grain, coaxing new forms from ancient trees that have witnessed more of this world's story than any mortal being."]
 			id: "148846E470D751DC"
 			progression_mode: "flexible"
 			rewards: [{
@@ -53,14 +58,15 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "The wood workers table"
+			subtitle: "Shaping the spirit of trees"
 			tasks: [{
-				id: "78F5D7B7D09724BA"
+				id: "678275BF39859D27"
 				item: "chipped:carpenters_table"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.0d
+			title: "Timber Transformation"
+			x: -1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7BB52BECAC00A7A4"]
@@ -194,5 +200,5 @@
 			y: 0.0d
 		}
 	]
-	title: "1.4 &aAdvanced Crafting"
+	title: "Advanced Crafting Arts"
 }

@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Here is something to get you started."]
+			description: ["In your pursuit of the Creators' secrets, you've discovered ancient texts speaking of a mystical art that binds essence to soil. The first whispers of this knowledge are contained within these pages. With this power, you may cultivate resources once thought unmalleable - perhaps even elements of the Creators' own designs."]
 			hide_dependency_lines: false
 			icon: "mysticalagriculture:inferium_essence"
 			id: "7101376ED31A4CE9"
@@ -33,10 +33,10 @@
 				}
 			]
 			size: 6.0d
-			subtitle: "Need for Read"
+			subtitle: "Ancient Knowledge Awakens"
 			tasks: [{
 				id: "08585D5BE514918C"
-				title: "Let's get Mystical"
+				title: "The Essence of Creation"
 				type: "checkmark"
 			}]
 			x: 6.0d
@@ -44,6 +44,7 @@
 		}
 		{
 			dependency_requirement: "one_completed"
+			description: ["The path of mystical agriculture requires patience and dedication. As you harness the power to grow what once could only be mined or hunted, you follow in the footsteps of the Creators themselves, who shaped worlds from nothing but pure essence."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: false
@@ -3749,5 +3750,5 @@
 			y: 5.0d
 		}
 	]
-	title: "3.3 &4Mystical Growth"
+	title: "Mystical Growth: The Creator's Harvest"
 }

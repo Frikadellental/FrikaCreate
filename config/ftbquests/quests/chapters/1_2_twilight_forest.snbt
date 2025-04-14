@@ -10,11 +10,11 @@
 	quests: [
 		{
 			description: [
-				"Welcome to the &9Twilight Forest&r!"
+				"As your understanding of the overworld deepens, whispers of &9The Twilight Forest&r begin to reach you - an ethereal realm where the Creators first tested their nascent powers of creation."
 				""
-				"To create a portal to the Twilight Forest, make a 2x2 hole and fill it with water. Surround the edges of the hole with flowers, and throw a diamond in."
+				"To pierce the veil between worlds, you must craft a gateway in the pattern of old: a perfect 2x2 pool of still water, surrounded by nature's bloom. The flowers, they say, resonate with the forest's frequency. Finally, a diamond—a fragment of pure creative energy—must be offered to activate the ancient passage."
 				""
-				"Thor will give you a sign if you did it right."
+				"When the skies roar with thunder, you will know the Twilight awaits, ready to test if you are worthy to walk where the Creators once dwelled."
 			]
 			id: "4193303999597249"
 			rewards: [
@@ -51,7 +51,7 @@
 			]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "Creating the Portal"
+			subtitle: "The Gateway to Arcane Knowledge"
 			tasks: [{
 				advancement: "twilightforest:root"
 				criterion: ""
@@ -60,16 +60,16 @@
 				title: "Enter the Twilight Forest"
 				type: "advancement"
 			}]
-			title: "The Twilight Forest"
+			title: "Echoes of the Twilight Realm"
 			x: -7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4193303999597249"]
 			description: [
-				"In the Twilight Forest, there are a bunch of new entities to discover."
+				"The Twilight Forest teems with creatures unlike any in your world - manifestations of both wonder and danger."
 				""
-				"One of the worst is the Cicada. I suggest on killing this for the achievement, but killing any Twilight Forest mob will work."
+				"The Cicada's call pierces the enchanted air - silencing it will be your first small victory in mastering this magical domain. Each creature you overcome reveals more about the Creators' designs and your own growing power."
 			]
 			hide_until_deps_visible: true
 			id: "575E405B270BBCBC"
@@ -83,7 +83,7 @@
 				criterion: ""
 				icon: "twilightforest:cicada"
 				id: "49C77D4CDAE03481"
-				title: "The Silence of the Forest"
+				title: "Silence the Enchanted Woods"
 				type: "advancement"
 			}]
 			x: -7.5d
@@ -93,11 +93,11 @@
 			dependencies: ["2951B1D7080C5EF9"]
 			dependency_requirement: "all_started"
 			description: [
-				".... is not yet implemented."
+				"The Final Plateau guards the remnants of knowledge not yet fully revealed..."
 				""
-				"Instead, head to the giant castle in the Final Plateau and grab some door blocks!"
+				"The massive castle stands as both monument and vault, its door blocks containing fragments of the Creators' lost wisdom."
 				""
-				"There is a kobold that spawns in as a \"placeholder\" but you will get nothing from killing it."
+				"A kobold entity stands as a temporary guardian, merely a shadow of the true challenges that await when the full power of this place awakens."
 			]
 			icon: "twilightforest:castle_brick"
 			id: "420158B1736A1354"
@@ -140,7 +140,7 @@
 					type: "item"
 				}
 			]
-			title: "The Final Boss"
+			title: "Echoes of the Creators"
 			x: 9.0d
 			y: 5.5d
 		}

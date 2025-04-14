@@ -35,10 +35,11 @@
 				type: "xp"
 				xp: 10
 			}]
+			subtitle: "The realm of fire whispers secrets of the Creators"
 			tasks: [{
 				biome: "minecraft:nether_wastes"
 				id: "6028C9FF67CB52DF"
-				title: "Visit nether wastes"
+				title: "Embark Into The Crimson Unknown"
 				type: "biome"
 			}]
 			x: -2.0d
@@ -60,10 +61,11 @@
 				type: "xp"
 				xp: 10
 			}]
+			subtitle: "Where magic pools in twisted harmony"
 			tasks: [{
 				biome: "minecraft:warped_forest"
 				id: "649CFD56F3F070DB"
-				title: "Visit warped forest"
+				title: "The Enchanted Warped Forest"
 				type: "biome"
 			}]
 			x: -2.0d
@@ -85,12 +87,13 @@
 				type: "xp"
 				xp: 10
 			}]
+			subtitle: "Ancient knowledge pulses within these twisted groves"
 			tasks: [{
 				biome: "minecraft:crimson_forest"
 				id: "1882805B6805451A"
 				type: "biome"
 			}]
-			title: "Visit crimson forest"
+			title: "The Pulsing Crimson Forest"
 			x: -2.0d
 			y: -3.0d
 		}
@@ -103,6 +106,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			subtitle: "Elements forged in primordial fires await discovery"
 			tasks: [{
 				biome: "minecraft:basalt_deltas"
 				icon: {
@@ -113,7 +117,7 @@
 					}
 				}
 				id: "40BB818F25D42D4C"
-				title: "Visit basalt delta"
+				title: "The Foundry of Creation"
 				type: "biome"
 			}]
 			x: -2.0d

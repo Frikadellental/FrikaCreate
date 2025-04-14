@@ -27,7 +27,7 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Okay so, andesite is a very abundant stone that you can find in large pockets underground, and they blend really well with the stone texture so keep your eyes open for some. You'll need a lot of this stone if you are going to make any machinery around here so dig as much as you can! Mental note as well, Zinc ores are important too as using it with andesite makes the important alloy used to making machinery."
+			subtitle: "The whispers of the Creators guide you to unearth andesite—a fundamental stone encoded with latent mechanical potential. Its abundance belies its importance; look for its subtle patterns amid ordinary stone in the depths below. The Creators' first test is one of perception: gather enough of this resource, for it forms the backbone of the mechanical wonders you will soon craft. Remember also to collect zinc ore—when combined with andesite, it produces an alloy that can channel the Creators' mechanical energies."
 			tasks: [{
 				count: 10L
 				id: "147C1BF492E5BAFD"
