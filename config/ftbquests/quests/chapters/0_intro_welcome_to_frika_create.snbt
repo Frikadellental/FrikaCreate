@@ -48,6 +48,7 @@
 			}]
 			x: -7.0d
 			y: -14.0d
+			title: "The First Step: A Whispered Calling"
 		}
 		{
 			id: "5D75E95678DDD710"
@@ -69,12 +70,13 @@
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_head"
 				id: "4D6BB95F1D5CC5D6"
-				title: "Defeated The Dragon"
+				title: "The End of the Beginning"
 				type: "kill"
 				value: 1L
 			}]
 			x: -27.5d
 			y: -27.5d
+			description: "The mighty Ender Dragon has fallen, marking the end of one chapter and the beginning of another. The Creators' influence grows stronger as you step closer to unraveling their mysteries."
 		}
 		{
 			icon: "minecraft:nether_star"
@@ -97,9 +99,10 @@
 					value: 100L
 				}
 			]
-			title: "Nailed the Withers Mom"
+			title: "The Nether's Wrath Unleashed"
 			x: -27.5d
 			y: -22.5d
+			description: "The Nether's fiercest creatures have tested your resolve. With each victory, you draw closer to mastering the arcane forces that bind this realm."
 		}
 		{
 			icon: "twilightforest:twilight_portal_miniature_structure"
@@ -198,9 +201,10 @@
 					value: 1L
 				}
 			]
-			title: "Fucked up the Forest"
+			title: "Twilight Trials: The Forest's Secrets"
 			x: -24.0d
 			y: -16.0d
+			description: "The Twilight Forest holds many trials, each a test of your courage and wit. Conquer its guardians to uncover the ancient truths hidden within."
 		}
 		{
 			id: "746E0FED1A9F4862"
@@ -219,9 +223,10 @@
 				item: "ad_astra:cheese"
 				type: "item"
 			}]
-			title: "Cheese."
+			title: "A Taste of the Cosmos"
 			x: -5.0d
 			y: -20.0d
+			description: "Even the simplest of creations, like cheese, can hold the essence of the Creators' ingenuity. Craft and savor this humble delight as you prepare for greater challenges."
 		}
 		{
 			icon: {
@@ -281,9 +286,10 @@
 					type: "item"
 				}
 			]
-			title: "Rocket Man"
+			title: "Rocketry: Reaching for the Stars"
 			x: -12.5d
 			y: -27.5d
+			description: "Your journey now extends beyond the skies. Assemble the tools of interstellar travel and prepare to explore the vast unknown."
 		}
 		{
 			icon: "ad_astra:earth_globe"
@@ -346,9 +352,10 @@
 					type: "dimension"
 				}
 			]
-			title: "Lightyear would be Proud"
+			title: "Celestial Wanderer"
 			x: -7.5d
 			y: -25.0d
+			description: "The Creators' influence spans across worlds. Visit distant planets and uncover the remnants of their cosmic legacy."
 		}
 		{
 			dependencies: [
@@ -372,6 +379,8 @@
 			}]
 			x: -20.0d
 			y: -28.0d
+			title: "Master of the Basics"
+			description: "You have mastered the fundamental skills of survival and creation. With this foundation, you are ready to face the greater mysteries ahead."
 		}
 	]
 	title: "&fThe &6Creator's Journey Begins"
