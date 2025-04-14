@@ -6,7 +6,7 @@
 	group: "47092B067B9FAB79"
 	icon: "tfmg:gasoline_engine_back"
 	id: "62795316364125EB"
-	order_index: 8
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{

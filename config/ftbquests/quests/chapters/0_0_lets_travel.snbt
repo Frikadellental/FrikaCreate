@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	default_quest_size: 2.5d
-	filename: "bosses"
+	filename: "0_0_lets_travel"
 	group: "319FC8CBA94476B1"
 	icon: "supplementaries:ad_astra/sign_post_strophar"
-	id: "23598838C9B11FD7"
+	id: "4CCC6E7DEE3DD66C"
 	images: [{
 		height: 6.0d
 		image: "ftbchunks:textures/faces/minecraft/villager.png"
@@ -14,14 +14,14 @@
 		x: -7.5d
 		y: -9.0d
 	}]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			id: "4B98E9C8AF854951"
+			id: "5E5EF9ED089817E9"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "058FD52E84556E81"
+				id: "437AB9443F7D21C6"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
@@ -29,7 +29,7 @@
 			subtitle: "Found a Sign that shows you the way..."
 			tasks: [{
 				icon: "pamhc2foodcore:friedchickenitem"
-				id: "6A6A4D3AA0F77F8E"
+				id: "4F40526D2B8F2D3D"
 				structure: "#supplementaries:way_sign_destinations"
 				title: "Do you know da way?"
 				type: "structure"
@@ -38,17 +38,17 @@
 			y: -2.5d
 		}
 		{
-			id: "1804EC3F03C583A3"
+			id: "2FABCFA66CFF26E9"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5C808B3F109522AB"
+				id: "32A439C77B458A16"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			size: 2.5d
 			subtitle: "You found a Village"
 			tasks: [{
-				id: "5C68F3CFC08B0079"
+				id: "46180AD88B107F49"
 				structure: "#minecraft:village"
 				title: "Lets Trade!"
 				type: "structure"
@@ -57,16 +57,16 @@
 			y: -5.0d
 		}
 		{
-			id: "3B1D56F93A673736"
+			id: "679FBE12A3CEB2C7"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "7ECD9504B930E164"
+				id: "1C27A0CB1BA1CD19"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			size: 2.5d
 			tasks: [{
-				id: "535BD45C373881C1"
+				id: "7E4C648CBFC4BE3A"
 				structure: "ars_nouveau:guardian_wilden_den"
 				title: "Find a Guardian Wilden Den"
 				type: "structure"
@@ -75,16 +75,16 @@
 			y: -2.5d
 		}
 		{
-			id: "5FA14852BB03B758"
+			id: "01D73E85E413623C"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "481A70C3A4F9E28D"
+				id: "70731CF566C9D6A5"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			size: 2.5d
 			tasks: [{
-				id: "2BD49824EBE5502A"
+				id: "14E8E294CF7447AD"
 				structure: "ars_nouveau:hunter_wilden_den"
 				title: "Find a Hunter Wilden Den"
 				type: "structure"
@@ -93,16 +93,16 @@
 			y: -2.5d
 		}
 		{
-			id: "4A6CCE8049264C7A"
+			id: "06012BFF5F9D81CF"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5079A6DB5FA9851A"
+				id: "410EA94A8E47D9A3"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			size: 2.5d
 			tasks: [{
-				id: "142C552865B87E02"
+				id: "0545A892C15FDDB1"
 				structure: "ars_nouveau:stalker_wilden_den"
 				title: "Find a Stalker Wilden Den"
 				type: "structure"
@@ -111,16 +111,16 @@
 			y: -5.0d
 		}
 		{
-			id: "00A312F4371BCA33"
+			id: "433C9891F6323353"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "3C71D6A4F07BF4CB"
+				id: "5C1154F35DB1A08F"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			size: 2.5d
 			tasks: [{
-				id: "46469F69212490B9"
+				id: "5E463E29DDFD7F3F"
 				structure: "betterdeserttemples:desert_temple"
 				title: "Find a Desert Temple"
 				type: "structure"
@@ -129,15 +129,15 @@
 			y: -5.0d
 		}
 		{
-			id: "7FAD2E5B23B50B50"
+			id: "6C47F78B85CAD878"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5FE1AE6A023DFC17"
+				id: "60A4A50813607972"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			tasks: [{
-				id: "28557951B2EF9E89"
+				id: "4BEFB1099491138D"
 				structure: "betterdungeons:skeleton_dungeon"
 				title: "Find a Skeleton Dungeon"
 				type: "structure"
@@ -146,15 +146,15 @@
 			y: -2.5d
 		}
 		{
-			id: "22C535B86577A999"
+			id: "55E71C3EA9B5D29D"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "4168E6F92CA40191"
+				id: "60BE1DA8567BBAAA"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			tasks: [{
-				id: "2E386C46263317E2"
+				id: "3730B7219E369925"
 				structure: "betterdungeons:small_dungeon"
 				title: "Find a Small Dungeon"
 				type: "structure"
@@ -163,15 +163,15 @@
 			y: -1.25d
 		}
 		{
-			id: "6796CE992AD78988"
+			id: "79C8E8EEF03D5F01"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "23DCE5A747199150"
+				id: "506CE16361007AE2"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			tasks: [{
-				id: "08F529FA86C1514A"
+				id: "7215A0C9A5B7CC2A"
 				structure: "betterdungeons:small_nether_dungeon"
 				type: "structure"
 			}]
@@ -180,15 +180,15 @@
 			y: -2.5d
 		}
 		{
-			id: "4BCD6E2759FCBD87"
+			id: "4D6D2FC3E7D6CB1E"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "6A7FAEBE9B341093"
+				id: "72688C1A41D695EB"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			tasks: [{
-				id: "7854CEED6BFDA103"
+				id: "70534349A08107A4"
 				structure: "betterdungeons:spider_dungeon"
 				title: "Find a Spider Dungeon"
 				type: "structure"
@@ -197,15 +197,15 @@
 			y: 1.25d
 		}
 		{
-			id: "0A93CA042A00C8FE"
+			id: "5CE6099D130C52E9"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "389AD0E2C87A1630"
+				id: "4937D5171050DD19"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			tasks: [{
-				id: "08E8B589F42B9BFD"
+				id: "15CD77BF1B1F7207"
 				structure: "betterdungeons:zombie_dungeon"
 				title: "Find a Zombie Dungeon"
 				type: "structure"
@@ -214,15 +214,15 @@
 			y: -2.5d
 		}
 		{
-			id: "2F02DF2D0C446F16"
+			id: "11D86DE98B2C6E0E"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "7DCBBBCBC57C4799"
+				id: "219E02F273935598"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			tasks: [{
-				id: "5545BB37B4D5F5D9"
+				id: "45F800FA448B2A56"
 				structure: "betterfortresses:fortress"
 				title: "Find a Fortress"
 				type: "structure"
@@ -231,15 +231,15 @@
 			y: 0.0d
 		}
 		{
-			id: "74E82E753BBD9979"
+			id: "6C8B7A9A539E6860"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "0DA434FFCCDF10E1"
+				id: "1829DBD50C5415A9"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			tasks: [{
-				id: "6B7BE8F3A129CF17"
+				id: "4BE130420684C964"
 				structure: "betterjungletemples:jungle_temple"
 				title: "Find a Jungle Temple"
 				type: "structure"
@@ -248,16 +248,16 @@
 			y: -5.0d
 		}
 		{
-			id: "477A14DA4DA1CF09"
+			id: "65E2AEA6D60F4D31"
 			rewards: [
 				{
-					id: "41EB04D8D5DA7371"
+					id: "098EF92C2CA42E2E"
 					type: "xp_levels"
 					xp_levels: 15
 				}
 				{
 					exclude_from_claim_all: true
-					id: "17EF806DCF2D5E30"
+					id: "606ABEE63E6FB32F"
 					table_id: 3167413821981102187L
 					type: "random"
 				}
@@ -265,88 +265,88 @@
 			subtitle: "You found them all!"
 			tasks: [
 				{
-					id: "6E1702F563091BE8"
+					id: "37CBD0233546F580"
 					structure: "bettermineshafts:mineshaft_acacia"
 					type: "structure"
 				}
 				{
-					id: "6F8F43EE18B480AB"
+					id: "2777226835B294FB"
 					structure: "bettermineshafts:mineshaft_desert"
 					type: "structure"
 				}
 				{
-					id: "76CEE71CD7672397"
+					id: "7783056A6D3CBF69"
 					structure: "bettermineshafts:mineshaft_dripstone"
 					type: "structure"
 				}
 				{
-					id: "3D4857938557A988"
+					id: "19214D9450B5C039"
 					structure: "minecraft:mineshaft"
 					type: "structure"
 				}
 				{
-					id: "0A11329ECF53979B"
+					id: "3E46DCC967D2FF80"
 					structure: "bettermineshafts:mineshaft_ice"
 					type: "structure"
 				}
 				{
-					id: "219AC83042E27439"
+					id: "457FDB850C4A816D"
 					structure: "bettermineshafts:mineshaft_jungle"
 					type: "structure"
 				}
 				{
-					id: "7320081CD7F2867D"
+					id: "33F43F77310BEF19"
 					structure: "#bettermineshafts:better_mineshafts"
 					type: "structure"
 				}
 				{
 					disable_toast: true
-					id: "63E41AADC6FF8C63"
+					id: "480A701900158E01"
 					structure: "minecraft:mineshaft_mesa"
 					type: "structure"
 				}
 				{
-					id: "6C28E6F90F1A2102"
+					id: "7CA8EFBFDF31286E"
 					structure: "bettermineshafts:mineshaft_jungle"
 					type: "structure"
 				}
 				{
-					id: "0F7C6B1C7C771B94"
+					id: "4511C30027904691"
 					structure: "bettermineshafts:mineshaft_lush"
 					type: "structure"
 				}
 				{
-					id: "5977E291000339EA"
+					id: "176CB5DB63C7B3E7"
 					structure: "bettermineshafts:mineshaft_mesa"
 					type: "structure"
 				}
 				{
-					id: "6F6FBE7AA3C81FFB"
+					id: "50B0D6BFB7C26D20"
 					structure: "bettermineshafts:mineshaft_mushroom"
 					type: "structure"
 				}
 				{
-					id: "24408E5EE6B5D917"
+					id: "709385DB3CC6119C"
 					structure: "bettermineshafts:mineshaft_oak"
 					type: "structure"
 				}
 				{
-					id: "3291779EA4A60982"
+					id: "4C5C8F73AC3C0F21"
 					structure: "bettermineshafts:mineshaft_overgrown"
 					type: "structure"
 				}
 				{
-					id: "07EA2F87C21F5C32"
+					id: "0ED719705F7A2D17"
 					structure: "bettermineshafts:mineshaft_red_desert"
 					type: "structure"
 				}
 				{
-					id: "1C57B65A600A9422"
+					id: "32B3FC35C6CDC02D"
 					structure: "bettermineshafts:mineshaft_spruce"
 					type: "structure"
 				}
 				{
-					id: "4DE96E7D0EED980D"
+					id: "32305B839F64C7A2"
 					structure: "bettermineshafts:mineshaft_spruce_snowy"
 					type: "structure"
 				}
@@ -356,15 +356,15 @@
 			y: -5.0d
 		}
 		{
-			id: "7B013192FA9BBB1D"
+			id: "0695814375B7AC93"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "74C3B3017A411FF2"
+				id: "5EB03352D63962D0"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			tasks: [{
-				id: "32B8F74C89F0A37F"
+				id: "27F968513A49DD73"
 				structure: "betteroceanmonuments:ocean_monument"
 				title: "Find a Ocean Monument"
 				type: "structure"
@@ -373,15 +373,15 @@
 			y: -5.0d
 		}
 		{
-			id: "2DE84A6E2440596F"
+			id: "375B3ABE781CC385"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "551EB8E348789BF5"
+				id: "6609470EE9308C07"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			tasks: [{
-				id: "40615E3322B28D1D"
+				id: "74A86ADBB78AB3DC"
 				structure: "betterwitchhuts:witch_circle"
 				title: "Find a Witch Circle"
 				type: "structure"
@@ -390,15 +390,15 @@
 			y: 0.0d
 		}
 		{
-			id: "07BCE93D730E2FBE"
+			id: "79713CD7F325730D"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "4B5391D5B1BD9E7D"
+				id: "4295F388AA89B8D2"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			tasks: [{
-				id: "35AA087A76639A10"
+				id: "05CF8C598B22D189"
 				structure: "betterwitchhuts:witch_hut"
 				title: "Find a Witch Hut"
 				type: "structure"
@@ -407,15 +407,15 @@
 			y: 0.0d
 		}
 		{
-			id: "596B1990FDBE6C98"
+			id: "48C8944F64DFA32C"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "2BF7ECA44D0844DD"
+				id: "686D84A5E5E1EE53"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			tasks: [{
-				id: "0FBFEDE2D84EF3EC"
+				id: "16925A82BAB42C5F"
 				structure: "villagesandpillages:village_witch"
 				title: "Find a Village Witch Hut"
 				type: "structure"
@@ -424,15 +424,15 @@
 			y: -1.25d
 		}
 		{
-			id: "4E2293DF687B117F"
+			id: "6EDDA19845228AF7"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5D629111A050E14B"
+				id: "3796DC117A41D644"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			tasks: [{
-				id: "3F65A3AB4165ABA3"
+				id: "0374F64A8409AA9D"
 				structure: "eeeabsmobs:ancient_tomb"
 				title: "Find a Ancient Tomb"
 				type: "structure"
@@ -441,15 +441,15 @@
 			y: -5.0d
 		}
 		{
-			id: "07323D4261E18ADE"
+			id: "12BBE8BF3F6F3882"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "41A7F00C1CF2FEDB"
+				id: "6F462766680B546D"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			tasks: [{
-				id: "013B3E9740B20C49"
+				id: "47C6D79806A43E32"
 				structure: "eeeabsmobs:one_chest_structure"
 				title: "Find a OneChest"
 				type: "structure"
@@ -458,15 +458,15 @@
 			y: -2.5d
 		}
 		{
-			id: "72047ECC55306078"
+			id: "581B9E9719D03DD5"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "315DE254F6BD21EE"
+				id: "6F199F876AE83BF7"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			tasks: [{
-				id: "71071A30A93065A5"
+				id: "1AF86965493B8D57"
 				structure: "graveyard:altar"
 				title: "Find a Altar"
 				type: "structure"
@@ -475,15 +475,15 @@
 			y: -3.75d
 		}
 		{
-			id: "64C21B0B78076E2E"
+			id: "23DF27EAEC7636AA"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "46D44B8D20860F11"
+				id: "7285B5EB5EDC81D7"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			tasks: [{
-				id: "5BEA19F306C5F0FF"
+				id: "1B38D33A8A25412B"
 				structure: "structory:graveyard"
 				title: "Find A Graveyard"
 				type: "structure"
@@ -492,15 +492,15 @@
 			y: -1.25d
 		}
 		{
-			id: "6235BB8016CF3150"
+			id: "1199788A92DF4009"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "3FB0A4A313FD80F6"
+				id: "6FDBB5798D78F014"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			tasks: [{
-				id: "7E570F776DACAD31"
+				id: "55504D55074E73E6"
 				structure: "graveyard:ruins"
 				title: "Find a Ruin"
 				type: "structure"
@@ -509,15 +509,15 @@
 			y: 1.25d
 		}
 		{
-			id: "42B0F1484DB78FED"
+			id: "0AF982505ADA0C62"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "712FEC51F69FFE3F"
+				id: "05C649911A452DA9"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			tasks: [{
-				id: "5C31A09AF4E79F64"
+				id: "2CBE742722BB94B5"
 				structure: "minecraft:mineshaft"
 				type: "structure"
 			}]
@@ -525,15 +525,15 @@
 			y: 2.5d
 		}
 		{
-			id: "5347DA03A643739E"
+			id: "67F1ED8786FA759D"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "4C7235FF71AF8A65"
+				id: "3BCD787C59515601"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			tasks: [{
-				id: "2E0B2AA5D251098F"
+				id: "5637EBE2DFD1B19D"
 				structure: "graveyard:crypt"
 				title: "Find a Crypt"
 				type: "structure"
@@ -542,15 +542,15 @@
 			y: -1.25d
 		}
 		{
-			id: "631EF67DA66D9AE6"
+			id: "369331DFD0DB5D5A"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5D72D3E52A197239"
+				id: "61BF4E47B27CF7F5"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			tasks: [{
-				id: "70EB436758E5AFEE"
+				id: "6998986F119D5AA9"
 				structure: "graveyard:giant_mushroom"
 				title: "Find a Giant Mushroom"
 				type: "structure"
@@ -559,15 +559,15 @@
 			y: 2.5d
 		}
 		{
-			id: "5F03D746C3E75A7B"
+			id: "68F944155D01AEFD"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "3D0A12BFC7CE4E9C"
+				id: "3B7B5BEFD3DE40CF"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			tasks: [{
-				id: "6AB2BF2E948A15C7"
+				id: "275E8CC3166FA4DF"
 				structure: "graveyard:haunted_house"
 				title: "Find a Haunted House"
 				type: "structure"
@@ -576,15 +576,15 @@
 			y: 1.25d
 		}
 		{
-			id: "0F320882634C107C"
+			id: "44CA39F65F9E5C19"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "3ED79A853D8A4FDF"
+				id: "76D3F6D5EB02902C"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			tasks: [{
-				id: "576E22F0B61FEF6F"
+				id: "40BF0153AF857B2A"
 				structure: "graveyard:large_graveyard"
 				title: "Find a Large Graveyard"
 				type: "structure"
@@ -593,15 +593,15 @@
 			y: 1.25d
 		}
 		{
-			id: "0A065BE843EE6D1F"
+			id: "1F678AB69619E10B"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "52E6A4CA4058ED80"
+				id: "59EEE57607533D10"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			tasks: [{
-				id: "01F2205B05A144FD"
+				id: "74B645465E17AA84"
 				structure: "graveyard:lich_prison"
 				title: "Find a Lich Prison"
 				type: "structure"
@@ -610,16 +610,16 @@
 			y: -3.75d
 		}
 		{
-			id: "2CF94F4DE627C267"
+			id: "5DEC9591E1092402"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "6EBE4231970DA2FF"
+				id: "2271EE3227106AD4"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			tasks: [{
 				disable_toast: true
-				id: "3BCBFDBDCA6EF4D1"
+				id: "120BECCEF8795BC7"
 				structure: "graveyard:small_desert_graveyard"
 				title: "Small Graveyard in the Desert"
 				type: "structure"
@@ -628,16 +628,16 @@
 			y: 5.0d
 		}
 		{
-			id: "5AE30C927487E1DC"
+			id: "08A48DC0C6878C52"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "71D032633E7D6D01"
+				id: "7C0987032AAE2855"
 				table_id: 3167413821981102187L
 				type: "random"
 			}]
 			tasks: [{
 				disable_toast: true
-				id: "410A0819F1EA4206"
+				id: "2FD0FC95A6F68256"
 				structure: "graveyard:small_graveyard"
 				title: "Find a Small Graveyard"
 				type: "structure"
@@ -647,5 +647,5 @@
 		}
 	]
 	subtitle: ["Lets do an Adventure through the Modpack!"]
-	title: "Lets Travel!"
+	title: "0.0 Lets Travel!"
 }

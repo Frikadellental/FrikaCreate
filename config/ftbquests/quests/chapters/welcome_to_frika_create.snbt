@@ -3,367 +3,221 @@
 	default_quest_shape: ""
 	filename: "welcome_to_frika_create"
 	group: "319FC8CBA94476B1"
-	icon: "farmersdelight:beef_patty"
-	id: "6DC9D8E24419D348"
-	images: [{
-		height: 20.0d
-		image: "farmersdelight:item/beef_patty"
-		rotation: 0.0d
-		width: 20.0d
-		x: -14.5d
-		y: -21.5d
-	}]
-	order_index: 0
+	icon: "create:brass_hand"
+	id: "3E34934F09B08365"
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"&lWelcome to a unique Minecraft experience with '&6FrikaCreate&r'! "
+				"&lWelcome to the beginning of your Creator's Journey!&r"
 				""
-				"Immerse yourself in a world full of possibilities and adventures, where you'll explore the depths of the ocean, conquer the skies, and uncover the secrets of ancient temples.&r"
+				"In a quiet corner of your world, where the mundane and extraordinary often brushed shoulders unnoticed, you felt a calling. It was subtle at first—a whisper carried by the wind, a peculiar shimmer in the night sky."
 				""
-				"Follow the Progress to unlock all Quests."
+				"To start your journey, click the checkmark under the word \"&9Tasks&r\" and then claim the &6Quest Reward&r. New challenges will begin to appear!"
+				""
+				"If new quests do not start appearing, try rejoining your world. Save the bread for your journey ahead."
 			]
 			icon: "farmersdelight:beef_patty"
-			id: "625630E8F4818108"
-			rewards: [
-				{
-					id: "44E8017B87F1E58C"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 4
-					id: "5200E5E3018DB95D"
-					item: "minecraft:oak_log"
-					type: "item"
-				}
-			]
-			size: 7.0d
-			tasks: [{
-				disable_toast: true
-				id: "2B2D54FD753A140D"
-				title: "Welcome!"
-				type: "checkmark"
-			}]
-			x: -7.0d
-			y: -14.0d
-		}
-		{
-			id: "5D75E95678DDD710"
-			rewards: [
-				{
-					id: "4299046D49D66EFD"
-					type: "xp_levels"
-					xp_levels: 20
-				}
-				{
-					exclude_from_claim_all: true
-					id: "57DA1782F401F81B"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-			]
-			size: 5.0d
-			tasks: [{
-				entity: "minecraft:ender_dragon"
-				icon: "minecraft:dragon_head"
-				id: "4D6BB95F1D5CC5D6"
-				title: "Defeated The Dragon"
-				type: "kill"
-				value: 1L
-			}]
-			x: -27.5d
-			y: -27.5d
-		}
-		{
-			icon: "minecraft:nether_star"
-			id: "1ECA86B4BA3B6E62"
-			size: 5.0d
-			subtitle: "Yeah... "
-			tasks: [
-				{
-					entity: "minecraft:wither"
-					icon: "minecraft:wither_skeleton_skull"
-					id: "3889639B647F9A2B"
-					title: "Nailed the Nether"
-					type: "kill"
-					value: 100L
-				}
-				{
-					entity: "minecraft:ghast"
-					id: "0EC0F5D9EBFE8552"
-					type: "kill"
-					value: 100L
-				}
-			]
-			title: "Nailed the Withers Mom"
-			x: -27.5d
-			y: -22.5d
-		}
-		{
-			icon: "twilightforest:twilight_portal_miniature_structure"
-			id: "6B596C2F5994C3AF"
-			rewards: [
-				{
-					id: "0008ED2B6C5B3321"
-					type: "xp_levels"
-					xp_levels: 50
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7C9880A37408CDDC"
-					table_id: 5351477636770726245L
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6BDD8D5E753839E3"
-					table_id: 487623848494439020L
-					type: "random"
-				}
-			]
-			size: 8.0d
-			tasks: [
-				{
-					entity: "twilightforest:naga"
-					icon: "twilightforest:naga_trophy"
-					id: "515DD7ECC4F3C49A"
-					title: "My Ni... Naga"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "twilightforest:lich"
-					icon: "twilightforest:lich_trophy"
-					id: "5F6B103EE4063C1F"
-					title: "Lich"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "twilightforest:minoshroom"
-					icon: "twilightforest:minoshroom_trophy"
-					id: "5B8C7E756E61CC80"
-					title: "I am on Shrooms"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "twilightforest:hydra"
-					icon: "twilightforest:hydra_trophy"
-					id: "5BAFE2C67EC11ACC"
-					title: "Let me Hydra-te"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "twilightforest:knight_phantom"
-					icon: "twilightforest:knight_phantom_trophy"
-					id: "41D426251EF0868C"
-					title: "The Knight out"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "twilightforest:ur_ghast"
-					icon: "twilightforest:ur_ghast_trophy"
-					id: "4ABAED07225146C6"
-					title: "U're Ghay"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "twilightforest:alpha_yeti"
-					icon: "twilightforest:alpha_yeti_trophy"
-					id: "1BA7A800FDCADE50"
-					title: "Yeet-i"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "twilightforest:snow_queen"
-					icon: "twilightforest:snow_queen_trophy"
-					id: "3E33AF64EA233412"
-					title: "Let it go"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "twilightforest:quest_ram"
-					icon: "twilightforest:quest_ram_trophy"
-					id: "768904C0A2A26EFC"
-					title: "Ram deez nuts"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "Fucked up the Forest"
-			x: -24.0d
-			y: -16.0d
-		}
-		{
-			id: "746E0FED1A9F4862"
-			size: 5.0d
-			tasks: [{
-				id: "6A332E6B0BF2A014"
-				item: "ad_astra:cheese"
+			id: "6A52090D6BC064D7"
+			rewards: [{
+				count: 3
+				id: "26B707F49F695DEA"
+				item: "minecraft:bread"
 				type: "item"
 			}]
-			title: "Cheese."
-			x: -5.0d
-			y: -20.0d
-		}
-		{
-			icon: {
-				Count: 1
-				id: "ad_astra:tier_4_rocket"
-				tag: { }
-			}
-			id: "770B9D4F280AEBE6"
-			rewards: [
-				{
-					id: "21C8A6078CFF6E3E"
-					type: "xp_levels"
-					xp_levels: 25
-				}
-				{
-					id: "6D4AD08F127E2FE4"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-			]
-			size: 5.0d
-			tasks: [
-				{
-					id: "7BA1653AEEED117F"
-					item: {
-						Count: 1
-						id: "ad_astra:tier_1_rocket"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "2675DB12E8CC5E30"
-					item: {
-						Count: 1
-						id: "ad_astra:tier_2_rocket"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "0F28A8759ED9021B"
-					item: {
-						Count: 1
-						id: "ad_astra:tier_3_rocket"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "5555048B5634580C"
-					item: {
-						Count: 1
-						id: "ad_astra:tier_4_rocket"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			title: "Rocket Man"
-			x: -12.5d
-			y: -27.5d
-		}
-		{
-			icon: "ad_astra:earth_globe"
-			id: "7BF2EFC82A0C38A4"
-			rewards: [
-				{
-					id: "08229781E3780756"
-					type: "xp_levels"
-					xp_levels: 50
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5F616B7229C8EC70"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "12914F71730E657C"
-					table_id: 5564196992594175882L
-					type: "loot"
-				}
-			]
-			size: 5.0d
-			subtitle: "You flew through space and time."
-			tasks: [
-				{
-					dimension: "ad_astra:glacio"
-					icon: "ad_astra:glacio_globe"
-					id: "71E857563ABA7E25"
-					title: "Visited Glacio"
-					type: "dimension"
-				}
-				{
-					dimension: "ad_astra:venus"
-					icon: "ad_astra:venus_globe"
-					id: "557F5D631F905284"
-					title: "Visited Venus"
-					type: "dimension"
-				}
-				{
-					dimension: "ad_astra:moon"
-					icon: "ad_astra:moon_globe"
-					id: "7FEF558C08738001"
-					title: "Visited Moon"
-					type: "dimension"
-				}
-				{
-					dimension: "ad_astra:mars"
-					icon: "ad_astra:mars_globe"
-					id: "584C00A294027B04"
-					title: "Visited Mars"
-					type: "dimension"
-				}
-				{
-					dimension: "ad_astra:mercury"
-					icon: "ad_astra:mercury_globe"
-					id: "03DF444C20A5866F"
-					title: "Visited Mercury (Not Freddy)"
-					type: "dimension"
-				}
-			]
-			title: "Lightyear would be Proud"
-			x: -7.5d
-			y: -25.0d
-		}
-		{
-			dependencies: [
-				"5D75E95678DDD710"
-				"1ECA86B4BA3B6E62"
-			]
-			icon: "minecraft:grass_block"
-			id: "1B8C3B765673A65F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "28E91D70670EE58F"
-				table_id: 5564196992594175882L
-				type: "random"
-			}]
-			size: 8.0d
-			subtitle: "You mastered basic Minecraft"
+			size: 2.0d
+			subtitle: "The whispers of the Creators beckon you"
 			tasks: [{
-				id: "58D347833E078BEA"
-				title: "Basic Bitch"
+				id: "1B0800437C68C43A"
+				title: "Begin Your Journey"
 				type: "checkmark"
 			}]
-			x: -20.0d
-			y: -28.0d
+			title: "&eThe Creator's Call"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A52090D6BC064D7"]
+			dependency_requirement: "one_completed"
+			description: [
+				"The icon in the top left of the screen is the &aFTB Teams &rmenu. This allows you to join forces with other travelers on this grand quest."
+				""
+				"To the right of the &aFTB Teams &ricon is the &6Quest Book &ricon, your guide to unraveling the secrets of the Creators."
+				""
+				"Throughout your journey, you'll encounter puzzles that test your wit, magical realms that challenge your courage, and technological wonders that await your mastery."
+			]
+			id: "0551657C900883AA"
+			rewards: [{
+				id: "44E8017B87F1E58C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Your first steps into a larger world"
+			tasks: [{
+				id: "5B2D5E952F32D892"
+				title: "Understanding Your Journey"
+				type: "checkmark"
+			}]
+			title: "The Path Forward"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A52090D6BC064D7"]
+			description: [
+				"&9Tasks &rare things that need to be done to complete a quest. If a task is an item, clicking on it will show its recipe."
+				""
+				"&6Rewards &rare what you get after completing all &9Tasks&r. Click to claim."
+				""
+				"The pin icon at the top right will pin a quest to your screen."
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/item/book.png"
+				}
+			}
+			id: "175099CF5696829E"
+			invisible_until_tasks: 1
+			rewards: [{
+				count: 3
+				id: "34B145F40A6C1F3B"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "Read my description!"
+			tasks: [
+				{
+					id: "21428FE253D34D4E"
+					title: "Quests"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					id: "08EDA62F0B406C49"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			title: "&6Quests"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A52090D6BC064D7"]
+			description: [
+				"Press &bR &rwhile hovering over an item to view its Recipe"
+				""
+				"Press &bU &rwhile hovering over an item to view its Uses"
+				""
+				"Press &bX &rto Crawl"
+				""
+				"Press &bRight Click &rwhile crouching to hold a block. (Useful for chests, doesn't work on all blocks)"
+				""
+				"Press &bC &rto Zoom"
+				""
+				"Press &bM &rto open the World Map"
+				""
+				"Press &bN &rto Create a New Waypoint"
+				""
+				"Press &bU&r to see Player Death History"
+				""
+				"Press &bO&r to view the Claiming Screen"
+				"{@pagebreak}"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:textures/icons/player.png"
+				}
+			}
+			id: "2165E80C52C79992"
+			invisible_until_tasks: 1
+			subtitle: "Read my description! Make sure to scroll down."
+			tasks: [
+				{
+					id: "6A64112F92690241"
+					title: "Click me!"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					id: "2B23CADA52D45FA0"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			title: "&9Important Controls"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"At the bottom of the inventory, you may have noticed a search bar."
+				""
+				"This is the &dJust Enough Items&r, or &dJEI&r, search bar. "
+				""
+				"If you type \"Wood\", for example, the &dJEI &ritem list at the right of the screen will show all items with \"Wood\" in the name."
+				""
+				"Adding a @ at the start of the search query will show the items from a specific mod, for example @Adorn"
+				""
+				"To favorite an item, press &bA &rwhile hovering over it in the &dJEI &ritem list."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:grass_block"
+			id: "139DAA6E8CF4267A"
+			rewards: [{
+				id: "1AE5746200C26691"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Read my description!"
+			tasks: [{
+				id: "74C85348A8B837EB"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "&bJust Enough Items (JEI)"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["139DAA6E8CF4267A"]
+			description: [
+				"The tutorial is now &afinished&r! "
+				""
+				"To view the rest of the quests, put your cursor to the left of the screen and expand the &6Quest Groups&r. "
+				""
+				"Feel free to join our &bDiscord &rfor any other questions you may have: https://lunapixel.studio/discord"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:textures/icons/check.png"
+				}
+			}
+			id: "6A4CB4700F0082C6"
+			rewards: [{
+				id: "53680199E84036F9"
+				item: "alexsmobs:animal_dictionary"
+				type: "item"
+			}]
+			subtitle: "Read my description!"
+			tasks: [{
+				id: "3B2CC7DEE30E3AB8"
+				title: "&aTutorial Complete!"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.5d
 		}
 	]
-	title: "&fWelcome to &6Frika Create"
+	title: "&6Tutorial"
 }

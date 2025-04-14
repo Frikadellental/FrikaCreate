@@ -10,11 +10,13 @@
 	quests: [
 		{
 			description: [
-				"This tutorial will guide you through some basic features. Don't worry, it won't take &otoo &rlong!"
+				"&lWelcome to the beginning of your Creator's Journey!&r"
 				""
-				"To start, click the checkmark under the word \"&9Tasks&r\" and then claim the &6Quest Reward&r. New quests will start to appear!"
+				"In a quiet corner of your world, where the mundane and extraordinary often brushed shoulders unnoticed, you felt a calling. It was subtle at first—a whisper carried by the wind, a peculiar shimmer in the night sky."
 				""
-				"If new quests do not start appearing, try rejoining your world. Do not eat the bread until the tutorial is finished."
+				"To start your journey, click the checkmark under the word \"&9Tasks&r\" and then claim the &6Quest Reward&r. New challenges will begin to appear!"
+				""
+				"If new quests do not start appearing, try rejoining your world. Save the bread for your journey ahead."
 			]
 			icon: "farmersdelight:beef_patty"
 			id: "6A52090D6BC064D7"
@@ -25,13 +27,13 @@
 				type: "item"
 			}]
 			size: 2.0d
-			subtitle: "To start the tutorial, click on this quest and read the description."
+			subtitle: "The whispers of the Creators beckon you"
 			tasks: [{
 				id: "1B0800437C68C43A"
-				title: "Click me!"
+				title: "Begin Your Journey"
 				type: "checkmark"
 			}]
-			title: "&eWelcome to Frika Create!"
+			title: "&eThe Creator's Call"
 			x: 1.5d
 			y: 2.0d
 		}
@@ -39,40 +41,29 @@
 			dependencies: ["6A52090D6BC064D7"]
 			dependency_requirement: "one_completed"
 			description: [
-				"The icon in the top left of the screen is the &aFTB Teams &rmenu. This allows you to add other players to your team."
+				"The icon in the top left of the screen is the &aFTB Teams &rmenu. This allows you to join forces with other travelers on this grand quest."
 				""
-				"On the right of the &aFTB Teams &ricon is the &6Quest Book &ricon, which allows you to access the &6Quest Book &rat any time."
+				"To the right of the &aFTB Teams &ricon is the &6Quest Book &ricon, your guide to unraveling the secrets of the Creators."
 				""
-				"When you click the square at the top left of your player display, your &8Curios &rslots will become visible. Some items, such as Elytras and Totems can be equipped here."
-				""
-				""
+				"Throughout your journey, you'll encounter puzzles that test your wit, magical realms that challenge your courage, and technological wonders that await your mastery."
 			]
-			hide_until_deps_visible: true
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "ftbteams:textures/teams.png"
-				}
-			}
-			id: "2958CA7FA6FD3E4F"
-			invisible_until_tasks: 1
-			subtitle: "Read my description!"
-			tasks: [
+			id: "6CE47960B6FEF89D"
+			rewards: [
 				{
-					id: "0DD3C1416FC34FA1"
-					title: "Click me!"
-					type: "checkmark"
-				}
-				{
-					id: "1D486C4B0E66490C"
-					item: "minecraft:bread"
-					type: "item"
+					id: "44E8017B87F1E58C"
+					type: "xp"
+					xp: 100
 				}
 			]
-			title: "&2Inventory"
-			x: 0.5d
-			y: 0.0d
+			subtitle: "Your first steps into a larger world"
+			tasks: [{
+				id: "5B2D5E952F32D892"
+				title: "Understanding Your Journey"
+				type: "checkmark"
+			}]
+			title: "The Path Forward"
+			x: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6A52090D6BC064D7"]
