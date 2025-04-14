@@ -1,37 +1,39 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "welcome"
+	filename: "0_intro_welcome_to_frika_create"
 	group: "319FC8CBA94476B1"
 	icon: "create:brass_hand"
-	id: "3E34934F09B08365"
+	id: "43FC6636BB917FF4"
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"This tutorial will guide you through some basic features. Don't worry, it won't take &otoo &rlong!"
+				"&lWelcome to the beginning of your Creator's Journey!&r"
 				""
-				"To start, click the checkmark under the word \"&9Tasks&r\" and then claim the &6Quest Reward&r. New quests will start to appear!"
+				"In a quiet corner of your world, where the mundane and extraordinary often brushed shoulders unnoticed, you felt a calling. It was subtle at first—a whisper carried by the wind, a peculiar shimmer in the night sky."
 				""
-				"If new quests do not start appearing, try rejoining your world. Do not eat the bread until the tutorial is finished."
+				"To start your journey, click the checkmark under the word \"&9Tasks&r\" and then claim the &6Quest Reward&r. New challenges will begin to appear!"
+				""
+				"If new quests do not start appearing, try rejoining your world. Save the bread for your journey ahead."
 			]
-			icon: "create:wrench"
-			id: "6A52090D6BC064D7"
+			icon: "farmersdelight:beef_patty"
+			id: "7050BC94C845DA64"
 			rewards: [{
 				count: 3
-				id: "26B707F49F695DEA"
+				id: "177BC4FEDED80738"
 				item: "minecraft:bread"
 				type: "item"
 			}]
 			size: 2.0d
-			subtitle: "To start the tutorial, click on this quest and read the description."
+			subtitle: "The whispers of the Creators beckon you"
 			tasks: [{
-				id: "1B0800437C68C43A"
-				title: "Click me!"
+				id: "5C521DD12C4418BD"
+				title: "Begin Your Journey"
 				type: "checkmark"
 			}]
-			title: "&eWelcome to All of Create!"
+			title: "&eThe Creator's Call"
 			x: 1.5d
 			y: 2.0d
 		}
@@ -39,40 +41,27 @@
 			dependencies: ["6A52090D6BC064D7"]
 			dependency_requirement: "one_completed"
 			description: [
-				"The icon in the top left of the screen is the &aFTB Teams &rmenu. This allows you to add other players to your team."
+				"The icon in the top left of the screen is the &aFTB Teams &rmenu. This allows you to join forces with other travelers on this grand quest."
 				""
-				"On the right of the &aFTB Teams &ricon is the &6Quest Book &ricon, which allows you to access the &6Quest Book &rat any time."
+				"To the right of the &aFTB Teams &ricon is the &6Quest Book &ricon, your guide to unraveling the secrets of the Creators."
 				""
-				"When you click the square at the top left of your player display, your &8Curios &rslots will become visible. Some items, such as Elytras and Totems can be equipped here."
-				""
-				""
+				"Throughout your journey, you'll encounter puzzles that test your wit, magical realms that challenge your courage, and technological wonders that await your mastery."
 			]
-			hide_until_deps_visible: true
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "ftbteams:textures/teams.png"
-				}
-			}
-			id: "2958CA7FA6FD3E4F"
-			invisible_until_tasks: 1
-			subtitle: "Read my description!"
-			tasks: [
-				{
-					id: "0DD3C1416FC34FA1"
-					title: "Click me!"
-					type: "checkmark"
-				}
-				{
-					id: "1D486C4B0E66490C"
-					item: "minecraft:bread"
-					type: "item"
-				}
-			]
-			title: "&2Inventory"
-			x: 0.5d
-			y: 0.0d
+			id: "0551657C900883AA"
+			rewards: [{
+				id: "3AA01F3FBF31056A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Your first steps into a larger world"
+			tasks: [{
+				id: "32BED625B95F96BC"
+				title: "Understanding Your Journey"
+				type: "checkmark"
+			}]
+			title: "The Path Forward"
+			x: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6A52090D6BC064D7"]
@@ -91,24 +80,24 @@
 					Icon: "ftbquests:textures/item/book.png"
 				}
 			}
-			id: "175099CF5696829E"
+			id: "31FA6924E7511940"
 			invisible_until_tasks: 1
 			rewards: [{
 				count: 3
-				id: "34B145F40A6C1F3B"
+				id: "0847870A046E75DB"
 				item: "minecraft:torch"
 				type: "item"
 			}]
 			subtitle: "Read my description!"
 			tasks: [
 				{
-					id: "21428FE253D34D4E"
+					id: "790651B62EC3A7CF"
 					title: "Quests"
 					type: "checkmark"
 				}
 				{
 					disable_toast: true
-					id: "08EDA62F0B406C49"
+					id: "1B92F52DB66CF784"
 					item: "minecraft:bread"
 					type: "item"
 				}
@@ -147,20 +136,25 @@
 					Icon: "ftblibrary:textures/icons/player.png"
 				}
 			}
-			id: "2165E80C52C79992"
+			id: "6DB4F88E7FFAAEEF"
 			invisible_until_tasks: 1
 			subtitle: "Read my description! Make sure to scroll down."
 			tasks: [
 				{
-					id: "6A64112F92690241"
+					id: "0979FA752B3187A0"
 					title: "Click me!"
 					type: "checkmark"
 				}
 				{
 					disable_toast: true
-					id: "2B23CADA52D45FA0"
+					id: "701753EEAD8A21BD"
 					item: "minecraft:bread"
 					type: "item"
+				}
+				{
+					id: "4F07F2E68783B505"
+					title: "Click"
+					type: "checkmark"
 				}
 			]
 			title: "&9Important Controls"
@@ -168,7 +162,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2958CA7FA6FD3E4F"]
 			description: [
 				"At the bottom of the inventory, you may have noticed a search bar."
 				""
@@ -182,21 +175,21 @@
 			]
 			hide_until_deps_visible: true
 			icon: "minecraft:grass_block"
-			id: "139DAA6E8CF4267A"
+			id: "211A9228C5AE0E60"
 			rewards: [{
-				id: "1AE5746200C26691"
+				id: "1A959326438BA453"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			subtitle: "Read my description!"
 			tasks: [{
-				id: "74C85348A8B837EB"
+				id: "1E5CEB62A2FDC505"
 				title: "Click me!"
 				type: "checkmark"
 			}]
 			title: "&bJust Enough Items (JEI)"
 			x: 0.5d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["139DAA6E8CF4267A"]
@@ -205,7 +198,7 @@
 				""
 				"To view the rest of the quests, put your cursor to the left of the screen and expand the &6Quest Groups&r. "
 				""
-				"Feel free to join our &bDiscord &rfor any other questions you may have: https://lunapixel.studio/discord"
+				"Feel free to join our &bDiscord &rfor any other questions you may have: https://discord.gg/pHtsgkKJeb"
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -215,15 +208,15 @@
 					Icon: "ftblibrary:textures/icons/check.png"
 				}
 			}
-			id: "6A4CB4700F0082C6"
+			id: "1EAAB76B5F248A22"
 			rewards: [{
-				id: "53680199E84036F9"
+				id: "3BB1EA8816252ACF"
 				item: "alexsmobs:animal_dictionary"
 				type: "item"
 			}]
 			subtitle: "Read my description!"
 			tasks: [{
-				id: "3B2CC7DEE30E3AB8"
+				id: "20A909280C7A1D58"
 				title: "&aTutorial Complete!"
 				type: "checkmark"
 			}]

@@ -5,7 +5,7 @@
 	group: "5B85D172AD52B352"
 	icon: "chipped:carpenters_table"
 	id: "10BB09AFF092D042"
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{

@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "2_3_food_vending"
+	filename: "e_central_kitchen"
 	group: "47092B067B9FAB79"
 	icon: {
 		Count: 1
