@@ -68,11 +68,9 @@ The Creators' secrets may not have been fully unveiled, but one thing was clear:
 
 ![Support Banner](https://i.imgur.com/pGMDwDQ.png)
 
-Please note that this modpack is created and maintained by only one person. If you encounter bugs or need assistance:
-
 - **Do not** post questions or bug reports in the comments
 - **Do** join our [Discord server](https://discord.gg/pHtsgkKJeb) and use the dedicated forums
-- You can also reach out via private message for specific issues
+- You can also reach out via private message for specific issues 
 
 ## Installation
 
@@ -88,7 +86,7 @@ If you enjoy FrikaCreate and want to support its development, consider:
 
 ## License
 
-This modpack is available under [appropriate license]. All included mods retain their original licenses.
+This modpack is available under GNU GPL v3. All included mods retain their original licenses.
 
 ---
 
