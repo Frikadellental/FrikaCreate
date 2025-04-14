@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: true
 	default_quest_shape: ""
-	filename: "chipped"
+	filename: "1_4_advanced_crafting"
 	group: "5B85D172AD52B352"
 	icon: "chipped:carpenters_table"
 	id: "10BB09AFF092D042"

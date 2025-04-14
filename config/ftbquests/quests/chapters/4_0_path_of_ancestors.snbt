@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "ancestors"
+	filename: "4_0_path_of_ancestors"
 	group: "0AE367113D3DA2EF"
 	icon: "eeeabsmobs:immortal_staff"
 	id: "7E8D081F09293605"
