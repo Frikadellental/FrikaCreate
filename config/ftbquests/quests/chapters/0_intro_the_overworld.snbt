@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: true
 	default_quest_shape: ""
-	filename: "overworld"
+	filename: "0_intro_the_overworld"
 	group: "319FC8CBA94476B1"
 	icon: {
 		Count: 1
@@ -2917,5 +2917,5 @@
 			y: -4.0d
 		}
 	]
-	title: "The Overworld"
+	title: "&3The Overworld"
 }

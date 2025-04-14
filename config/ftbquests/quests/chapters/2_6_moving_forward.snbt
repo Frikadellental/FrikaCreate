@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "trains"
+	filename: "2_6_moving_forward"
 	group: "47092B067B9FAB79"
 	icon: {
 		Count: 1
@@ -335,5 +335,5 @@
 			y: -2.0d
 		}
 	]
-	title: "2.6 &eMoving Forward"
+	title: "2.6 &eChoo Choo!"
 }

@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "storage"
+	filename: "1_3_storage"
 	group: "5B85D172AD52B352"
 	icon: "minecraft:chest"
 	id: "1DB294A8F8686321"

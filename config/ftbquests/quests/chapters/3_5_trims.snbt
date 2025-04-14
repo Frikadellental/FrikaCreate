@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "trims"
+	filename: "3_5_trims"
 	group: "34669419BAF6FEE3"
 	icon: "minecraft:silence_armor_trim_smithing_template"
 	id: "2BCC7D72D260A21C"
