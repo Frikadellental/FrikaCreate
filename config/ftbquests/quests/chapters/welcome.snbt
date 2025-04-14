@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "welcome"
+	filename: "welcome_to_frika_create"
 	group: "319FC8CBA94476B1"
 	icon: "create:brass_hand"
 	id: "3E34934F09B08365"

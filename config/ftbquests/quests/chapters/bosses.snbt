@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	default_quest_size: 2.5d
-	filename: "bosses"
+	filename: "0_0_lets_travel"
 	group: "319FC8CBA94476B1"
 	icon: "supplementaries:ad_astra/sign_post_strophar"
 	id: "23598838C9B11FD7"
@@ -647,5 +647,5 @@
 		}
 	]
 	subtitle: ["Lets do an Adventure through the Modpack!"]
-	title: "Lets Travel!"
+	title: "0.0 Lets Travel!"
 }
