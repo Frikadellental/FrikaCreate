@@ -6,10 +6,10 @@
 	icon: "farmersdelight:beef_patty"
 	id: "6DC9D8E24419D348"
 	images: [{
-		height: 20.0d
+		height: 15.0d
 		image: "farmersdelight:item/beef_patty"
 		rotation: 0.0d
-		width: 20.0d
+		width: 15.0d
 		x: -14.5d
 		y: -21.5d
 	}]
@@ -48,7 +48,7 @@
 				type: "checkmark"
 			}]
 			title: "The First Step: A Creator's Call"
-			x: -7.0d
+			x: -3.5d
 			y: -14.0d
 		}
 		{
@@ -77,8 +77,8 @@
 				value: 1L
 			}]
 			title: "The Dragon's Demise"
-			x: -27.5d
-			y: -27.5d
+			x: -10.0d
+			y: -10.0d
 		}
 		{
 			icon: "minecraft:nether_star"
@@ -102,8 +102,8 @@
 				}
 			]
 			title: "Conqueror of the Nether"
-			x: -27.5d
-			y: -22.5d
+			x: -22.5d
+			y: -10.0d
 		}
 		{
 			icon: "twilightforest:twilight_portal_miniature_structure"
@@ -370,7 +370,7 @@
 				table_id: 5564196992594175882L
 				type: "random"
 			}]
-			size: 8.0d
+			size: 5.0d
 			subtitle: "Master the basics to embark on a greater journey."
 			tasks: [{
 				id: "58D347833E078BEA"
@@ -378,8 +378,8 @@
 				type: "checkmark"
 			}]
 			title: "Master of Beginnings"
-			x: -20.0d
-			y: -28.0d
+			x: -16.0d
+			y: -12.0d
 		}
 	]
 	title: "&fThe &6Creator's Journey Begins"
