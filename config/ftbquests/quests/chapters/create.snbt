@@ -2767,6 +2767,128 @@
 			x: -4.5d
 			y: -8.0d
 		}
+		{
+			description: [
+				"All of Create is based around Create, obviously, a steampunk mod that lets you build contraptions to do most things you can think of, just not how to do your laundry nor your homework, okay?"
+				""
+				"Create offers great guides for most of its items by hovering over them in REI or in your inventory and holding down 'W' to \"ponder\" the item, but sometimes it's just best to test each thing out, go big or go home, as the saying goes."
+				""
+				"Because of this, the chapter is mostly focused on letting you know what exists and giving you a rough outline of the progression of the mod, but at the same time, it will not handhold you all the way to the end since Create is a free for all sandbox mechanic mod. Get building and be smarter."
+			]
+			icon: "create:mechanical_arm"
+			id: "1742597D48E37800"
+			rewards: [
+				{
+					count: 10
+					id: "43236C722BE9B90B"
+					item: "farmersdelight:fried_rice"
+					type: "item"
+				}
+				{
+					id: "1F2D3559FBE5FBB1"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "&8[Click to read]"
+			tasks: [{
+				id: "26E205688A2E7D32"
+				title: "Continue"
+				type: "checkmark"
+			}]
+			title: "&6Welcome to Create!"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			id: "15FA061AA0E7C2E6"
+			rewards: [{
+				id: "6669B098D9452372"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "32832F9FCC1A42D3"
+				item: "create_things_and_misc:sprinkler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			id: "205DCDADC7B500B9"
+			rewards: [{
+				id: "5FF3DB5B82086686"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "A builder's best friend, this extension is going to be handy when reaching far and is perfect for building not only aesthetically, but also machinery with practicality."
+			tasks: [{
+				id: "5254527325B1F219"
+				item: {
+					Count: 1
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			id: "00F11AE1E586D83D"
+			rewards: [{
+				id: "1297BF7386F047F8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Potato Cannons are a classic weapon to have, just remember to have suitable ammo in your inventory or this thing is useless."
+			tasks: [{
+				id: "07F923188419D3B7"
+				item: {
+					Count: 1
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.5d
+		}
+		{
+			id: "4E1D2DC78E017E20"
+			rewards: [{
+				id: "7F4B8650A0120F81"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2B77AF6FB81ADB03"
+					item: "create_things_and_misc:card_reader"
+					type: "item"
+				}
+				{
+					id: "66BD9CE1496062E3"
+					item: "create_things_and_misc:card_press"
+					type: "item"
+				}
+				{
+					id: "6B6C4C2D0924CF06"
+					item: "create_things_and_misc:empty_card"
+					type: "item"
+				}
+			]
+			title: "Card"
+			x: -4.5d
+			y: -8.0d
+		}
 	]
 	title: "2.1 &eCreate"
 }

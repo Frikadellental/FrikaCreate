@@ -2,7 +2,7 @@
 	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "cthe_mod_that_nobyd_understood_for_ages"
+	filename: "2_7_grow_your_factory"
 	group: "47092B067B9FAB79"
 	icon: "tfmg:gasoline_engine_back"
 	id: "62795316364125EB"

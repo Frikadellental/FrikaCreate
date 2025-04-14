@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "enchantment_industry"
+	filename: "2_4_enchantment_industry"
 	group: "47092B067B9FAB79"
 	icon: "create_enchantment_industry:enchanting_guide"
 	id: "0499D0D75E3C190E"

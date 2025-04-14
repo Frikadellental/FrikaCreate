@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "epump_dat_oil"
+	filename: "2_5_pump_dat_oil"
 	group: "47092B067B9FAB79"
 	icon: "createdieselgenerators:diesel_engine"
 	id: "06DB0353E8EA3593"
@@ -351,5 +351,5 @@
 			y: 5.0d
 		}
 	]
-	title: "2.5.1 &ePump up the Oil"
+	title: "2.5 &ePump up the Oil"
 }

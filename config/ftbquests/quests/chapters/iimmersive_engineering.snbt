@@ -1,0 +1,14 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1_1_immersive_engineering"
+	group: "5B85D172AD52B352"
+	icon: "immersiveengineering:hammer"
+	id: "2F3C714E02AF8C90"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		// ...existing code...
+	]
+	title: "1.1 &aImmersive Engineering"
+}

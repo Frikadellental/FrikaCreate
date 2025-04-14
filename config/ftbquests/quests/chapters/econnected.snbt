@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "econnected"
+	filename: "2_2_connected"
 	group: "47092B067B9FAB79"
 	icon: "create_connected:parallel_gearbox"
 	id: "3D80B24267ED3FC3"
