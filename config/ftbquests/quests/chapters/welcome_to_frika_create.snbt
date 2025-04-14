@@ -16,7 +16,7 @@
 				""
 				"To start your journey, click the checkmark under the word \"&9Tasks&r\" and then claim the &6Quest Reward&r. New challenges will begin to appear!"
 				""
-				"If new quests do not start appearing, try rejoining your world. Save the bread for your journey ahead."
+				"If new quests do not start appearing, try rejoining your world. Save the bread for your journey ahead, as you'll need sustenance to face the trials of the Creators."
 			]
 			icon: "farmersdelight:beef_patty"
 			id: "6A52090D6BC064D7"
@@ -45,22 +45,24 @@
 				""
 				"To the right of the &aFTB Teams &ricon is the &6Quest Book &ricon, your guide to unraveling the secrets of the Creators."
 				""
-				"Throughout your journey, you'll encounter puzzles that test your wit, magical realms that challenge your courage, and technological wonders that await your mastery."
+				"Each chapter will guide you through different realms of knowledge - from mastering the mechanical arts to harnessing magic, and eventually reaching for the stars themselves."
+				""
+				"The path ahead is filled with trials, but with ingenuity and determination, you may yet discover the Creators' ultimate legacy."
 			]
-			id: "0551657C900883AA"
+			id: "7B3C0842A73C684E"
 			rewards: [{
-				id: "44E8017B87F1E58C"
+				id: "367FDAC1C03B4A06"
 				type: "xp"
-				xp: 100
+				xp: 10
 			}]
-			subtitle: "Your first steps into a larger world"
+			subtitle: "Your guide through the realms"
 			tasks: [{
-				id: "5B2D5E952F32D892"
-				title: "Understanding Your Journey"
+				id: "4A511BFB29F09114"
+				title: "Open the Quest Book"
 				type: "checkmark"
 			}]
-			title: "The Path Forward"
-			x: 3.5d
+			title: "The Book of Mysteries"
+			x: 3.0d
 			y: 2.0d
 		}
 		{
@@ -219,5 +221,5 @@
 			y: -1.5d
 		}
 	]
-	title: "&6Tutorial"
+	title: "Welcome to Frika Create"
 }
