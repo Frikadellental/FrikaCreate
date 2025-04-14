@@ -2,7 +2,7 @@
 
 ![FrikaCreate Banner](https://i.imgur.com/3BKN1DL.png)
 
-[![Discord](https://img.shields.io/discord/your-discord-id?color=7289da&label=Discord&logo=discord&logoColor=white)](https://discord.gg/pHtsgkKJeb)
+[![Discord](https://img.shields.io/discord/1361285693090824314?color=7289da&label=Discord&logo=discord&logoColor=white)](https://discord.gg/pHtsgkKJeb)
 [![Ko-fi](https://img.shields.io/badge/Support%20on-Ko--fi-FF5E5B?logo=kofi)](https://ko-fi.com/C0C6Q3JU4)
 
 ## Overview
@@ -71,7 +71,7 @@ The Creators' secrets may not have been fully unveiled, but one thing was clear:
 Please note that this modpack is created and maintained by only one person. If you encounter bugs or need assistance:
 
 - **Do not** post questions or bug reports in the comments
-- **Do** join our [Discord server](https://discord.gg/rPjtXafFQb) and use the dedicated forums
+- **Do** join our [Discord server](https://discord.gg/pHtsgkKJeb) and use the dedicated forums
 - You can also reach out via private message for specific issues
 
 ## Installation
