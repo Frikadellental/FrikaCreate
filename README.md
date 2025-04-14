@@ -2,7 +2,7 @@
 
 ![FrikaCreate Banner](https://i.imgur.com/3BKN1DL.png)
 
-[![Discord](https://img.shields.io/discord/your-discord-id?color=7289da&label=Discord&logo=discord&logoColor=white)](https://discord.gg/rPjtXafFQb)
+[![Discord](https://img.shields.io/discord/your-discord-id?color=7289da&label=Discord&logo=discord&logoColor=white)](https://discord.gg/pHtsgkKJeb)
 [![Ko-fi](https://img.shields.io/badge/Support%20on-Ko--fi-FF5E5B?logo=kofi)](https://ko-fi.com/C0C6Q3JU4)
 
 ## Overview
@@ -92,4 +92,4 @@ This modpack is available under [appropriate license]. All included mods retain 
 
 ---
 
-[![Discord Join](https://i.imgur.com/EPBOomT.png)](https://discord.gg/rPjtXafFQb)
+[![Discord Join](https://i.imgur.com/EPBOomT.png)](https://discord.gg/pHtsgkKJeb)
