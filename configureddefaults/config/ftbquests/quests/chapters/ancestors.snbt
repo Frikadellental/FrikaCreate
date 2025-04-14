@@ -1,0 +1,311 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ancestors"
+	group: "0AE367113D3DA2EF"
+	icon: "eeeabsmobs:immortal_staff"
+	id: "7E8D081F09293605"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Your mother told you that the mother of her mother told her... Anyway, there is some kind of Ancient tomb, that wont allow your Ancestors to rest in peace. "]
+			id: "147AB2A86BEDD5CE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "51E9380F76F469EF"
+					table_id: 3167413821981102187L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47D77943FA786967"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "523C73142835BE20"
+					type: "choice"
+				}
+			]
+			size: 4.0d
+			tasks: [{
+				id: "409E1B41764DCBE7"
+				title: "Start Quest"
+				type: "checkmark"
+			}]
+			title: "My mother told me..."
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["147AB2A86BEDD5CE"]
+			description: ["Find a way to the Ancient Tomb."]
+			hide_until_deps_visible: true
+			icon: "eeeabsmobs:animation_controller"
+			id: "5F424A1E3376F056"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "332D65BC77878EA2"
+					table_id: 3167413821981102187L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EFB33B716E803EE"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0038D877878A8513"
+					type: "choice"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				count: 8L
+				id: "6A7D99D59B47F02F"
+				item: "eeeabsmobs:ancient_tomb_eye"
+				type: "item"
+			}]
+			title: "Find our Ancestors"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F424A1E3376F056"]
+			description: ["You found the Ancient tomb, that our Ancestors were talking about. Find a way in..."]
+			hide_details_until_startable: true
+			id: "605B9C11A9AA8CE3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "53AAB55288AD40D9"
+					table_id: 3167413821981102187L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BE836C96A597DDA"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "075160C3A7DB68CC"
+					type: "choice"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "05D2A163A51805EA"
+				structure: "eeeabsmobs:ancient_tomb"
+				type: "structure"
+			}]
+			title: "Ancient Tomb"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["605B9C11A9AA8CE3"]
+			description: ["Some Villager told you, that your Way in is marked by glowing stuff, and that this Tomb is way down below the overworld. "]
+			id: "046D5C90E4FA8E29"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7FF5F0404E6E1790"
+					table_id: 3167413821981102187L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "485930E4F46BA4AC"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "758F571A9C34E3EE"
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "3E27991FA9AC5AC4"
+				title: "ok."
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["046D5C90E4FA8E29"]
+			hide_until_deps_visible: true
+			id: "43358B21662A13F8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "35173F2621220DD7"
+					table_id: 3167413821981102187L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56DF060C6B272429"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "286FD1FF913942BC"
+					type: "choice"
+				}
+			]
+			tasks: [{
+				entity: "eeeabsmobs:immortal_skeleton"
+				id: "56C26CFFFC6535A3"
+				type: "kill"
+				value: 5L
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["046D5C90E4FA8E29"]
+			id: "49235723727D7CEA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "79C8FD6C1209A9D8"
+					table_id: 3167413821981102187L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41B2E2BDF3D19D85"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51CA50361EC5E1FD"
+					type: "choice"
+				}
+			]
+			tasks: [{
+				entity: "eeeabsmobs:immortal_knight"
+				id: "7BD1A1E6EB5CFB67"
+				type: "kill"
+				value: 5L
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["046D5C90E4FA8E29"]
+			id: "738DEEC5001C9A37"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3781977D01952B19"
+					table_id: 3167413821981102187L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E73873D4998F85E"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D3D7AEF052E7584"
+					type: "choice"
+				}
+			]
+			tasks: [{
+				entity: "eeeabsmobs:immortal_golem"
+				id: "73FD0FE231FF6D5C"
+				type: "kill"
+				value: 5L
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["046D5C90E4FA8E29"]
+			id: "5BE16298DDA5FBDE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5654DD5AF70C2E01"
+					table_id: 3167413821981102187L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6246ADEEE67C9503"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B41AE2F59BF5BF7"
+					type: "choice"
+				}
+			]
+			tasks: [{
+				entity: "eeeabsmobs:immortal_shaman"
+				id: "563CFDBB27E74C2A"
+				type: "kill"
+				value: 5L
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"738DEEC5001C9A37"
+				"49235723727D7CEA"
+				"5BE16298DDA5FBDE"
+				"43358B21662A13F8"
+			]
+			description: ["You finally freed the souls of your Ancestors. They can now rest in peace."]
+			icon: "eeeabsmobs:immortal_bone"
+			id: "30D2865BECEBB76E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "53634B7CBBE6CF9A"
+					table_id: 3167413821981102187L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "296A840A7C24586D"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72202115F0CEBBE6"
+					type: "choice"
+				}
+			]
+			size: 5.0d
+			tasks: [{
+				entity: "eeeabsmobs:nameless_guardian"
+				id: "156E43EBEE576CE4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Free the Souls of your Ancestors"
+			x: 7.5d
+			y: 0.0d
+		}
+	]
+	title: "&6Path of our Ancestors"
+}

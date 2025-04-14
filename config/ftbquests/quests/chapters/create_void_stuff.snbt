@@ -1,0 +1,216 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_void_stuff"
+	group: "5B85D172AD52B352"
+	id: "1B38227F41C1A372"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1B00107556D0E1E0"
+			rewards: [
+				{
+					id: "7919FB5344A19FD2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "063AEDA8CC5E3A92"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "57D555BE14FA207D"
+				item: "createutilities:void_steel_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			id: "5775811F8BACF99E"
+			rewards: [
+				{
+					id: "7C2AB705E9064FA2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52F78AC78CCF0051"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "1AEBDBBD005E1FE4"
+				item: "createutilities:void_steel_sheet"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "74065A7D223B1680"
+			rewards: [
+				{
+					id: "2A706434CE06D4FD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24B186DBC676C0FF"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "1B0066122DB51A4E"
+				item: "createutilities:void_casing"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "7941B5CABAAC2D94"
+			rewards: [
+				{
+					id: "29F7243BBFD84FBD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A91E9EA305F433E"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "670755F5C3E8BED8"
+				item: "createutilities:void_chest"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			id: "16185E1FC07D2859"
+			rewards: [
+				{
+					id: "0C377E25361F94B5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EFF74B54D6B07DB"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "7EE4DDB569902D95"
+				item: "createutilities:void_tank"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			id: "4349DF8614497D78"
+			rewards: [
+				{
+					id: "3AB64C0205C5DC16"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78A56AB6CCF7E03C"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "379FA562671C020A"
+				item: "createutilities:void_motor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "33DE95E9D18F2279"
+			rewards: [
+				{
+					id: "1122B5099345864C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46F55AC2EC091170"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "4175171ACC14016A"
+				item: "createutilities:polished_amethyst"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			id: "46A1665EDC309B33"
+			rewards: [
+				{
+					id: "2043BCF5BFF8C3C6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36142F019DDC3378"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "0D090FEEF1CAF653"
+				item: "createutilities:graviton_tube"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			icon: "create_new_age:overcharged_diamond_wire"
+			id: "1000417AA951C025"
+			size: 4.0d
+			tasks: [{
+				id: "5B8E6F1C4C8FA444"
+				title: "Getting Electrical"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "1.6 &aVoiding Warranty"
+}

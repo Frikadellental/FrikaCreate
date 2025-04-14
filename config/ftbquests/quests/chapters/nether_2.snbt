@@ -1,0 +1,1692 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether_2"
+	group: "319FC8CBA94476B1"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "alexsmobs:item/blood_sac"
+		}
+	}
+	id: "0110D8011BD7DB63"
+	order_index: 4
+	quest_links: [
+		{
+			id: "0E1C27672E602416"
+			linked_quest: "27B28A53F0EFE604"
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			id: "7A31C88E786943BE"
+			linked_quest: "27B28A53F0EFE604"
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			id: "69B7B53242F27B0B"
+			linked_quest: "133696D3887F1B9D"
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			id: "08346B2343C1335B"
+			linked_quest: "133696D3887F1B9D"
+			x: 7.0d
+			y: -4.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["27B28A53F0EFE604"]
+			id: "45BC0BE3BEF0FFC4"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "36820DFFCC3C4522"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "alexsmobs:item/bone_serpent_tooth"
+					}
+				}
+				id: "360EA4E2AA02D595"
+				observe_type: 5
+				timer: 0L
+				title: "See a Bone Serpent"
+				to_observe: "alexsmobs:bone_serpent"
+				type: "observation"
+			}]
+			title: "See a Bone Serpent"
+			x: -11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["27B28A53F0EFE604"]
+			id: "1CAA45BFB2FDA321"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "72740F146BD800EC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "alexsmobs:item/straddle_saddle"
+					}
+				}
+				id: "43277C4E731922D5"
+				observe_type: 5
+				timer: 0L
+				title: "See a Laviathan"
+				to_observe: "alexsmobs:laviathan"
+				type: "observation"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["27B28A53F0EFE604"]
+			id: "75FE17440478D990"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "7ADE3FEA80DE55AD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "alexsmobs:item/bucket_content/stradpole"
+					}
+				}
+				id: "3F9B0619639D266E"
+				observe_type: 5
+				timer: 0L
+				title: "See a Stradpole"
+				to_observe: "alexsmobs:stradpole"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["27B28A53F0EFE604"]
+			id: "5290D7AA6BC26F8F"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "4ACE715A2733E5C9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "alexsmobs:item/warped_muscle"
+					}
+				}
+				id: "51EEE2BA604C4351"
+				observe_type: 5
+				timer: 0L
+				title: "See a Warped Mosco"
+				to_observe: "alexsmobs:warped_mosco"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["27B28A53F0EFE604"]
+			id: "4D0D18DA9D615166"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "112F3ED13554A182"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_warped_toad"
+				id: "1FB82FBF69BAF1D2"
+				observe_type: 5
+				timer: 0L
+				title: "See a Warped Toad"
+				to_observe: "alexsmobs:warped_toad"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["27B28A53F0EFE604"]
+			id: "24CD2B5F9962BE7A"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "3078F59066AE9709"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "alexsmobs:item/dropbear_claw"
+					}
+				}
+				id: "1D95F7244756BF9A"
+				observe_type: 5
+				timer: 0L
+				title: "See a Dropbear"
+				to_observe: "alexsmobs:dropbear"
+				type: "observation"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45BC0BE3BEF0FFC4"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexsmobs:item/bone_serpent_tooth"
+				}
+			}
+			id: "52C9A45635695D5C"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "458444521797B278"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1062E975CD95F9F8"
+					item: "alexsmobs:bone_serpent_tooth"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:bone_serpent"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "alexsmobs:item/bone_serpent_tooth"
+					}
+				}
+				id: "5475078CFE9A6473"
+				title: "Kill a Bone Serpent"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27B28A53F0EFE604"]
+			id: "3C63AEEA674F9271"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "13CB88E1B028015D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "321D81CCDD9FDE39"
+					item: "alexsmobs:mosquito_proboscis"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:crimson_mosquito"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "alexsmobs:item/mosquito_larva"
+					}
+				}
+				id: "53C80D9DAD794578"
+				title: "Kill a Crimson Mosquito"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["24CD2B5F9962BE7A"]
+			id: "7D36310081A27CFE"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "0B713962D0934215"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7AC36C6D39783D68"
+					item: "alexsmobs:dropbear_claw"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:dropbear"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "alexsmobs:item/dropbear_claw"
+					}
+				}
+				id: "0E65AC09C1EABF49"
+				title: "Kill a Dropbear"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CAA45BFB2FDA321"]
+			id: "598969681AE7464A"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "3C9BD2ED90824370"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "511C9C987DF299F2"
+					item: "minecraft:blackstone"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "47A6EB317EFADD12"
+					item: "minecraft:magma_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:laviathan"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "alexsmobs:item/straddle_helmet"
+					}
+				}
+				id: "7E3E7868F30528F5"
+				title: "Kill a Laviathan"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27B28A53F0EFE604"]
+			id: "53C8C66DAAA11C00"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "76F7F4A695286E42"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "alexsmobs:soul_vulture"
+				icon: "alexsmobs:spawn_egg_soul_vulture"
+				id: "3449E6DF6C339EA9"
+				title: "Kill a Soul Vulture"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["27B28A53F0EFE604"]
+			id: "7965D25BBFCC5A25"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "676A700AC4D55A85"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6025AEFEB70C95FB"
+					item: "alexsmobs:straddlite"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:straddler"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "alexsmobs:item/straddlite"
+					}
+				}
+				id: "160801F1EC651C33"
+				title: "Kill a Stradler"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["75FE17440478D990"]
+			id: "31F5C17B5DDBF692"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "2502704AA3F7A4D3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "alexsmobs:stradpole"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "alexsmobs:item/bucket_content/stradpole"
+					}
+				}
+				id: "6B5D6E086437615C"
+				title: "Kill a Stradpole"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5290D7AA6BC26F8F"]
+			id: "76F5425C524A06F0"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "0D4C410C43BD4C1F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2E27DE7CB2E4BA29"
+					item: "alexsmobs:warped_muscle"
+					type: "item"
+				}
+				{
+					id: "414D599FA303FFCE"
+					item: "alexsmobs:hemolymph_sac"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:warped_mosco"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "alexsmobs:item/hemolymph_sac"
+					}
+				}
+				id: "51B30C27E15FEAFE"
+				title: "Kill a Warped Mosco"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D0D18DA9D615166"]
+			id: "7C8C68CE19E6DECA"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "7B3C8C3A5FA7ED38"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "74DA9C70F884BDBC"
+					item: "minecraft:shroomlight"
+					type: "item"
+				}
+				{
+					id: "12CB813D02D6F78C"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:warped_toad"
+				icon: "alexsmobs:spawn_egg_warped_toad"
+				id: "2087B9605A35468E"
+				title: "Kill a Warped Toad"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27B28A53F0EFE604"]
+			id: "199CCCAE620BFD7A"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "4E889A3115B17EE9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5FE754E17EE98509"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "487346CB0DCCEDDD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["27B28A53F0EFE604"]
+			id: "3818C3AD4C6CAD89"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "543140063D5AE37A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0C97F41BD8523073"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "7CE436C49C08DE06"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["27B28A53F0EFE604"]
+			id: "788675D4C5196E5F"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "2C9F8381218700AF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "714FBCE425829C90"
+					item: "minecraft:bone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "0744470F6F0097C8"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["27B28A53F0EFE604"]
+			id: "201A4A14E3664A83"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "4C12945186450A0A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "79FC84B6F55A3419"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombified_piglin"
+				id: "744AC208819C5668"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["27B28A53F0EFE604"]
+			id: "4504A3361509312A"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "2D27870CF6E4D291"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "566BA41CCC48C27F"
+					item: "minecraft:cooked_porkchop"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:hoglin"
+				id: "15864665F0052F2D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			id: "7A2AFF5E98395FB5"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "13BEBD417098EC28"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "342DD31E486E5664"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "7DF528134F333842"
+				type: "kill"
+				value: 5L
+			}]
+			x: -8.5d
+			y: -8.0d
+		}
+		{
+			id: "05EA786F843D84D1"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "5D67F989B35D502D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "196A15C5D3E4F41E"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "40A50188022F68FE"
+				type: "kill"
+				value: 10L
+			}]
+			x: -8.5d
+			y: -9.5d
+		}
+		{
+			id: "06D0F0D7522EA630"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "3F1264BCA6045C01"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "368E47584D61E7C9"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "170E92AA6D88C572"
+				type: "kill"
+				value: 25L
+			}]
+			x: -8.5d
+			y: -11.0d
+		}
+		{
+			id: "6D358362B5007C7F"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "58075D641A6BB667"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "24275D57BC7E09EF"
+					item: "minecraft:cooked_porkchop"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:hoglin"
+				id: "1D59E52EE59B597B"
+				type: "kill"
+				value: 5L
+			}]
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			id: "3578CAD359EA384A"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "758851FE18113EE2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "3E74E91040610248"
+					item: "minecraft:cooked_porkchop"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:hoglin"
+				id: "33E70834C10693AF"
+				type: "kill"
+				value: 10L
+			}]
+			x: -7.0d
+			y: -9.5d
+		}
+		{
+			id: "254614EBCA468FEE"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "44538A33C23EA5BC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "5D026973A619F847"
+					item: "minecraft:cooked_porkchop"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:hoglin"
+				id: "6A77BCB433D8F80D"
+				type: "kill"
+				value: 25L
+			}]
+			x: -7.0d
+			y: -11.0d
+		}
+		{
+			id: "0062668566A542AD"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "221EB0725375EA18"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "4BF39831EBAC21B3"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "4C7D45B88DEE289F"
+				type: "kill"
+				value: 5L
+			}]
+			x: -5.5d
+			y: -8.0d
+		}
+		{
+			id: "06EF37D48BBF94F1"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "2F812FAEA36AD785"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "7CD93D59ADBB6C81"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "1D0DDC90FE1BC493"
+				type: "kill"
+				value: 10L
+			}]
+			x: -5.5d
+			y: -9.5d
+		}
+		{
+			id: "2D9917FE94B56220"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "01457BB4645AD380"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "2791B2A53237CB67"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "706006556C254631"
+				type: "kill"
+				value: 25L
+			}]
+			x: -5.5d
+			y: -11.0d
+		}
+		{
+			id: "146626E0548E4E35"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "755091BD222F40AD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "466E420333817D75"
+					item: "minecraft:bone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "753F2409475F8391"
+				type: "kill"
+				value: 5L
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			id: "62DF19040654B1A4"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "4EBE3FF992874636"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "08EA21EFD59F6E82"
+					item: "minecraft:bone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "24C46A681FAFA974"
+				type: "kill"
+				value: 10L
+			}]
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			id: "42D8A887FAFD3473"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "00FF539AABE4B0FF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6F8604EC729AAF5C"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "31FF3A947BB6E854"
+				type: "kill"
+				value: 25L
+			}]
+			x: -4.0d
+			y: -11.0d
+		}
+		{
+			id: "0D7A74E25A952311"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "2E41D43011B8B898"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "7118882770F83D2D"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombified_piglin"
+				id: "5A3ACD052AE8EF9D"
+				type: "kill"
+				value: 5L
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			id: "1F13A264692B039B"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "6997762A7DC76D7E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "6E82F11FD19C3C46"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombified_piglin"
+				id: "7803653EA73C89CB"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			id: "60A3E6450C5C60A6"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "5F6EBFDD111D1643"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "6153FAD78EC3E4FF"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombified_piglin"
+				id: "786DC2ABB6F6E6B2"
+				type: "kill"
+				value: 25L
+			}]
+			x: -2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["133696D3887F1B9D"]
+			id: "20F6B948FE491BD5"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "191CCAFCD44B072D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "alexsmobs:item/enderiophage_rocket"
+					}
+				}
+				id: "0E0A7B661C0F9772"
+				observe_type: 5
+				timer: 0L
+				title: "See an Enderiophage"
+				to_observe: "alexsmobs:enderiophage"
+				type: "observation"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["133696D3887F1B9D"]
+			id: "09C5047D4A33A432"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "0DC9457089A9EDCF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_endergrade"
+				id: "333DBE4EA257E5A8"
+				observe_type: 5
+				timer: 0L
+				title: "See an Endergrade"
+				to_observe: "alexsmobs:endergrade"
+				type: "observation"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["133696D3887F1B9D"]
+			id: "5DCB5A07D16BC9C1"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "5B9A3563B7441519"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "alexsmobs:item/cosmic_cod_bucket"
+					}
+				}
+				id: "04E4594F1507CDB1"
+				observe_type: 5
+				timer: 0L
+				title: "See a Cosmic Cod"
+				to_observe: "alexsmobs:cosmic_cod"
+				type: "observation"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["133696D3887F1B9D"]
+			id: "36C9BBC68A6B9579"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "643C8769042F1026"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_cosmaw"
+				id: "33AED8378EFE3C93"
+				observe_type: 5
+				timer: 0L
+				title: "See a Cosmaw"
+				to_observe: "alexsmobs:cosmaw"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["133696D3887F1B9D"]
+			id: "694B7F3EA0C4D976"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "0FEBC36260AEC6D0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "alexsmobs:item/mimicream"
+					}
+				}
+				id: "3C2281BF32EF5E3F"
+				observe_type: 5
+				timer: 0L
+				title: "See a Mimicube"
+				to_observe: "alexsmobs:mimicube"
+				type: "observation"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["133696D3887F1B9D"]
+			id: "60998761FC588A81"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "1912E5B965C3CD84"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "alexsmobs:textures/entity/spectre_glint.png"
+					}
+				}
+				id: "3C861EF4C699355F"
+				observe_type: 5
+				timer: 0L
+				title: "See a Spectre"
+				to_observe: "alexsmobs:spectre"
+				type: "observation"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["133696D3887F1B9D"]
+			id: "0157B27A35938C98"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "223919F77F734708"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "alexsmobs:item/void_worm_eye"
+					}
+				}
+				id: "53D99021F1FFF055"
+				observe_type: 5
+				timer: 0L
+				title: "See a Void Worm"
+				to_observe: "alexsmobs:void_worm"
+				type: "observation"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["36C9BBC68A6B9579"]
+			id: "526490BB83F02D62"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "412CB85E8F41788E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1C4C569425564EAE"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:cosmaw"
+				icon: "alexsmobs:spawn_egg_cosmaw"
+				id: "5E327D1519196227"
+				title: "Kill a Cosmaw"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DCB5A07D16BC9C1"]
+			id: "63A9B8A4C4B1DEE9"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "0B904114767D98E6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "00B4D2D0503D46B6"
+					item: "alexsmobs:cosmic_cod"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:cosmic_cod"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "alexsmobs:item/cosmic_cod"
+					}
+				}
+				id: "5D1DA5619987822A"
+				title: "Kill a Cosmic Cod"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09C5047D4A33A432"]
+			id: "51D887358D66BA96"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "5CD49643262743B1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "alexsmobs:endergrade"
+				icon: "alexsmobs:spawn_egg_endergrade"
+				id: "6F8773D96279A72C"
+				title: "Kill a Endergrade"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20F6B948FE491BD5"]
+			id: "2DB25A99F12BA0CC"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "1498581F71FB29CD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0F280E8934A0E71F"
+					item: "alexsmobs:capsid"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:enderiophage"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "alexsmobs:item/enderiophage_rocket"
+					}
+				}
+				id: "05854896D48B9282"
+				title: "Kill a Enderiophage"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["694B7F3EA0C4D976"]
+			id: "06B061841D174EC3"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "406B763AB2FAB132"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2243C8E980561ADF"
+					item: "alexsmobs:mimicream"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:mimicube"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "alexsmobs:item/mimicream"
+					}
+				}
+				id: "5D0F81B2904B277A"
+				title: "Kill a Mimicube"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60998761FC588A81"]
+			id: "378B06580DFA60D4"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "62B46615ABB412BA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "alexsmobs:spectre"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "alexsmobs:textures/entity/spectre_glint.png"
+					}
+				}
+				id: "1DD7E35530DA16D9"
+				title: "Kill a spectre"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0157B27A35938C98"]
+			id: "76EF0086A2A28617"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "5A9173E82134C4EF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "474850153D499F84"
+					item: "alexsmobs:void_worm_eye"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "38091708A248962E"
+					item: "alexsmobs:void_worm_mandible"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "alexsmobs:item/void_worm_mandible"
+					}
+				}
+				id: "17175658DB0F0A45"
+				title: "Kill a Void Worm"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["133696D3887F1B9D"]
+			id: "21D92AEB025A25BC"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "17FFAF9A53B793DD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "76141CA723730F86"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "12FE17781B28E85F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["133696D3887F1B9D"]
+			id: "6AB46C57D94D112D"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "4A3AB7743A059C62"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "660D1B26C4E12DA5"
+					item: "minecraft:shulker_shell"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "0BC670435208BFED"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["133696D3887F1B9D"]
+			id: "517857CA85325E4A"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "3AA9C8E721EAE959"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0529A8BC3541B674"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "641D02F6B57CF2A4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["21D92AEB025A25BC"]
+			id: "77D0B83305339702"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "403CCBF5B4171164"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "222100F6742FD626"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "643B8143090D14CF"
+				type: "kill"
+				value: 5L
+			}]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["77D0B83305339702"]
+			id: "238CF5A0D7634BC0"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "07984516069EFDE4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "3CC9BE3A8DA9E0F1"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "5CEF81FFBAFD1EF6"
+				type: "kill"
+				value: 10L
+			}]
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["238CF5A0D7634BC0"]
+			id: "6A5ED5B5FE2B8A2F"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "25271D5D0F9E99F0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "70B172FAFDFF4FE4"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "19DBDC093DD92944"
+				type: "kill"
+				value: 20L
+			}]
+			x: 7.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6AB46C57D94D112D"]
+			id: "4A5D31B1994C50C7"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "6147709CBE6F2B82"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "77A6FC40F4E8F649"
+					item: "minecraft:shulker_shell"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "0601171E40E69944"
+				type: "kill"
+				value: 5L
+			}]
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4A5D31B1994C50C7"]
+			id: "3960734C54AD13CA"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "125A55B10D0F8135"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "40569088A0AFC042"
+					item: "minecraft:shulker_shell"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "68CE41BBEFD1347C"
+				type: "kill"
+				value: 10L
+			}]
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3960734C54AD13CA"]
+			id: "310A664AED0D21E0"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "2CEE759E7F6C9459"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 6
+					id: "02C21EF28062F945"
+					item: "minecraft:shulker_shell"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "53793D5AF81A72B4"
+				type: "kill"
+				value: 25L
+			}]
+			x: 9.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["517857CA85325E4A"]
+			id: "1986FE4BA7289F82"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "6FF13E8DEAC7A1DE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "6CA48130C444B7EE"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "59F06D506227E387"
+				type: "kill"
+				value: 5L
+			}]
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1986FE4BA7289F82"]
+			id: "5A5A630E2E6CB0EE"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "06A0DBE62114D8B7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "5EDD1E237CB31964"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "219D01C6B26A08D9"
+				type: "kill"
+				value: 10L
+			}]
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5A5A630E2E6CB0EE"]
+			id: "0EDC3B872CE697B3"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "048EC911F368638F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "681D9ED08D89E184"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "2523D91D744CD6D2"
+				type: "kill"
+				value: 25L
+			}]
+			x: 5.0d
+			y: -10.5d
+		}
+	]
+	title: "Traveling through Nether and End"
+}

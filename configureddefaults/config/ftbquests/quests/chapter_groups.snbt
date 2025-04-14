@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "319FC8CBA94476B1", title: "&6Introduction and Sidequests" }
+		{ id: "5B85D172AD52B352", title: "Chapter 1: Wait... who are you?" }
+		{ id: "47092B067B9FAB79", title: "Chapter 2: Industrialization" }
+		{ id: "34669419BAF6FEE3", title: "Chapter 3: Growing Pain" }
+		{ id: "0AE367113D3DA2EF", title: "Chapter 4: &6Creators Battlefield&f" }
+		{ id: "5AB31C69DD2BC6B0", title: "Chapter 5: The Creators Ore" }
+	]
+}

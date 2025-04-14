@@ -1,0 +1,203 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_new_age"
+	group: "5B85D172AD52B352"
+	id: "4610BED4F6EA6FB2"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "22814D632F7D20D7"
+			tasks: [{
+				id: "0B0DD5F5CC4F976E"
+				item: "create_new_age:copper_wire"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "0D8C248E91C3F30A"
+			tasks: [{
+				id: "014208686C340293"
+				item: "create_new_age:overcharged_iron_wire"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "37A065759B2A3D0B"
+			tasks: [{
+				id: "378C702A0F8CF126"
+				item: "create_new_age:overcharged_golden_wire"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "6AAA733B2F3E0F58"
+			tasks: [{
+				id: "5B65E514905CCFB9"
+				item: "create_new_age:overcharged_diamond_wire"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "1711598B70C747C9"
+			tasks: [{
+				id: "5D359FA8D449C43A"
+				item: "create_new_age:overcharged_gold"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			icon: "create_new_age:overcharged_iron"
+			id: "2BE5A6361EB5D46C"
+			tasks: [{
+				id: "524CEE1022DBC071"
+				item: { Count: 2, id: "create_new_age:overcharged_iron" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "72D2A2ED2482CE99"
+			tasks: [{
+				id: "76E3176D1641771E"
+				item: "create_new_age:overcharged_diamond"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "595A93C6AE904D8B"
+			tasks: [{
+				id: "069CE4F519E62477"
+				item: "create_new_age:nuclear_fuel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "56396C5AFE1C7E6F"
+			tasks: [{
+				id: "1A761F9882DF4988"
+				item: "create_new_age:generator_coil"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "546B71A62D37BD87"
+			tasks: [{
+				id: "023F53B5028DD109"
+				item: "create_new_age:heat_pipe"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			id: "5DA0717B2EF46DC7"
+			tasks: [{
+				id: "497D783AE1833A94"
+				item: "create_new_age:heat_pump"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "19318039EBD55F7C"
+			tasks: [{
+				id: "14D322E6A9C9DBA6"
+				item: "create_new_age:heater"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "029C540D8C02C024"
+			tasks: [{
+				id: "370BC0EBB057A142"
+				item: "create_new_age:stirling_engine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "7C871113518F87C1"
+			tasks: [{
+				id: "0738631DEB8BC817"
+				item: "create_new_age:reactor_rod"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			id: "181045F1D73AF388"
+			tasks: [{
+				id: "71CE9F974C6FEF83"
+				item: "create_new_age:reactor_glass"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "7655AAC79487B627"
+			tasks: [{
+				id: "79092F96BE757A0F"
+				item: "create_new_age:reactor_heat_vent"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			id: "57D41B0CA39C4669"
+			tasks: [{
+				id: "384A922100714DCB"
+				item: "create_new_age:reactor_fuel_acceptor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "067631F088E23427"
+			tasks: [{
+				id: "545EBA2D9DA061EA"
+				item: "create_new_age:basic_solar_heating_plate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "0CB9E86D5E835509"
+			tasks: [{
+				id: "267783B148018284"
+				item: "create_new_age:advanced_solar_heating_plate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+	]
+	title: "1.7 &aGetting Energized"
+}

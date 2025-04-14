@@ -1,0 +1,16 @@
+{
+	id: "2BF4EA16E3D8906B"
+	loot_size: 13
+	order_index: 4
+	rewards: [
+		{
+			type: "xp"
+			xp: 100
+		}
+		{
+			type: "xp_levels"
+			xp_levels: 5
+		}
+	]
+	title: "Shet"
+}
